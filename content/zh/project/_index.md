@@ -1,6 +1,5 @@
 ---
-title: 出版物
-view: 4
+title: 研究项目
 
 header:
   caption: ""

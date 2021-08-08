@@ -28,7 +28,7 @@ content:
   - 本科生
   - 校友
 design:
-  show_interests: false
+  show_interests: true
   show_role: true
   show_social: true
 ---

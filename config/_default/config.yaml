@@ -22,10 +22,13 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/linozen/wowchemy-hugo-modules/wowchemy-cms
+    # - path: github.com/sklf/wowchemy-hugo-modules/wowchemy-cms
+    - path: wowchemy-cms
+      # disable: true
     #- path: github.com/wowchemy/wowchemy-hugo-modules/wowchemy 
-    - path: github.com/linozen/wowchemy-hugo-modules/wowchemy 
-    
+    # - path: github.com/sklf/wowchemy-hugo-modules/wowchemy 
+    - path: wowchemy 
+      # disable: true
   hugoVersion:
     min: '0.84.1'
     extended: true

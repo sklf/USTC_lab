@@ -33,7 +33,7 @@ projects: ["MTrack"]
 publishDate: '2021-08-07T13:51:27.707795Z'
 publication_types:
 - '2'
-abstract: '我们实施了一个多天线宽带系统，可以提供高分辨率的到达角 (AoA) 和飞行时间 (ToF)。 2D 波束成形器用于将原始无线电信号转换为 AoA-ToF 域。 为了跟踪移动人的轨迹，我们利用人的移动来消除静态多径，并提出一种路径选择算法来估计人的位置并抑制动态多径的干扰。 为了跟踪静态人的生命体征，我们利用静态人的呼吸来消除静态多径，并提出一种基于相关的算法来消除动态多径。 大量实验表明，所提出的 MTrack 系统能够以亚分米级精度跟踪多个移动的人，并且可以估计静态人的呼吸和心跳率，准确率分别为 99.8% 和 98.46%。'
+abstract: 'we implement a multi-antenna wideband system that can provide high-resolution angle of arrival (AoA) and time of flight (ToF). A 2D beamformer is utilized to transform the raw radio signals into the AoA-ToF domain. To track the trajectories of moving persons, we leverage the movement of persons to cancel static multipaths and propose a path selection algorithm to estimate the locations of human and suppress the interferences from dynamic multipaths. To track the vital signs of static persons, we utilize the breath of static persons to eliminate static multipaths and propose a correlation-based algorithm to eliminate dynamic multipaths. Extensive experiments show that the proposed MTrack system is capable of tracking multiple moving persons with sub-decimeter level accuracy, and can estimate the breath and heartbeat rate of static persons with median accuracy of 99.8% and 98.46%, respectively.'
 publication: '*IEEE Internet of Things Journal*'
 doi: 10.1109/JIOT.2020.3025820
 ---

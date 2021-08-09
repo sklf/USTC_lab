@@ -80,6 +80,7 @@ hugo new --kind authors authors/语种/姓名
 ---
 # Display name
 title: Chunyang Xie
+weight: 10
 
 # Is this the primary user of the site?
 superuser: false
@@ -161,6 +162,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
 硕士生|Master Students|
 本科生|Undergrad Students|
 校友|Alumni|
+
+请注意，`weight` 项为权重项，后面的数值表示排序的权重，越小则在网页上分组内展示越靠前。为了避免顺序混乱，目前暂时采用以下规则：
+
+入学年份|权重区间|
+--|:--:|
+2018 及以前|1~20|
+2019|21~40|
+2020|41~60|
+2021|61~80|
+2022|81~100|
+
+同时需要注意，不同角色分组下的 `weight` **并不冲突**，因此可以放心使用上述规则，同一年份的权重分配原则上先到先得，也可以自行商量分配。
+
 
 文件最下面为个人介绍，请将中英文介绍分别填写至对应的文件中。
 ## 修改项目信息

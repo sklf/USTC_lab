@@ -1,6 +1,5 @@
 # 如何更新实验室网页中的个人资料
-本教程将会一步步指导大家如何更新自己在实验室主页上的个人资料。请注意，本项目基于 [Hugo](https://github.com/gohugoio/hugo) 和 [Wowchemy's Research Group Template](https://wowchemy.com/templates/) 开发而成，设计理念受到博客 [《How to Build Academic Website for Research Group in 2021》](https://jedyang.com/post/how-to-build-academic-research-group-website-in-2021/) 启发。
-
+本教程将会指导大家如何更新自己在实验室主页上的个人资料。
 - [如何更新实验室网页中的个人资料](#如何更新实验室网页中的个人资料)
   - [安装必要软件](#安装必要软件)
   - [如何参与更新](#如何参与更新)
@@ -65,12 +64,6 @@ Windows系统请执行以下步骤:
         git status
        ```
     6. 在 自己 fork 的 GitHub 仓库主页点击 `Pull requests` 按钮，选择将`dev`的内容 merge 到 `upstream` 仓库的`dev`分支上，写上PR摘要，提交申请。
-    
-5. 在本地仓库自己的分支下修改个人资料，提交 commit 并 pull 到自己fork 的 GitHub 仓库中，在 GitHub 仓库主页点击 `Pull requests` 按钮，选择将自己分支的内容 merge 到 `upstream` 仓库的`dev`分支上，写上PR摘要，提交申请。
-
-
-
-
 
 ## 文件存放路径
 在本 GitHub 仓库中，所有个人资料均保存在 `content` 路径下面， 其中 `content\en` 存放英文版网页内容， `content\zh` 存放中文版网页内容。 因此为了保证在不同语言环境下网页的统一，每一次更新网站内容时请**务必**同时更新上述两个路径下的相应文件。

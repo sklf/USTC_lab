@@ -10,7 +10,7 @@ role: PhD student of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
-- name: UESTC
+- name: University of Electronic Science and Technology of China
   url: "https://www.uestc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)

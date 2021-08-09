@@ -124,7 +124,7 @@ marketing:
   baidu_site_verification: ''
   baidu_tongji: ''
 cms:
-  branch: main
+  branch: dev
   local_backend: false
 icon:
   pack:

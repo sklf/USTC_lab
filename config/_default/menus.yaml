@@ -7,7 +7,7 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: People
+  - name: Members
     url: people
     weight: 30
   - name: Research

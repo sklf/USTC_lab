@@ -26,6 +26,9 @@ zh:
      - name: 成员
        url: people
        weight: 30
+     - name: 研究
+       url: project
+       weight: 40
      - name: 出版物
        url: publication
        weight: 50

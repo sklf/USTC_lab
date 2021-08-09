@@ -18,7 +18,7 @@ organizations:
   url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I have been a Professor at University of Science and Technology of China since March 2020. I was a Professor at University of Electronic Science and Technology of China from Sept. 2015 to Feb. 2020. I received my Ph.D. degree from University of Maryland College Park on August 2011. Before that, I got my Bachelor degree from the University of Science and Technology of China (USTC) in 2004 and Master degree from Hong Kong University of Science and Technology (HKUST) in 2007.
+bio: 2020年3月起任中国科学技术大学教授，2015年9月至2020年2月任电子科技大学教授。 2011年8月获得马里兰大学帕克分校博士学位。在此之前，我于2004年获得中国科技大学（USTC）学士学位，2007年获得香港科技大学（HKUST）硕士学位。
 
 interests:
 - Multimedia
@@ -74,5 +74,5 @@ user_groups:
 
 ---
 
-Yan Chen is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+2020年3月起任中国科学技术大学教授，2015年9月至2020年2月任电子科技大学教授。 2011年8月获得马里兰大学帕克分校博士学位。在此之前，我于2004年获得中国科技大学（USTC）学士学位，2007年获得香港科技大学（HKUST）硕士学位。
 

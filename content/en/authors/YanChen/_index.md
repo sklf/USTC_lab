@@ -15,7 +15,7 @@ role: Professor
 # Organizations/Affiliations
 organizations:
 - name: University of Science and Technology of China
-  url: "https://chenyanustc.github.io/"
+  url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: I have been a Professor at University of Science and Technology of China since March 2020. I was a Professor at University of Electronic Science and Technology of China from Sept. 2015 to Feb. 2020. I received my Ph.D. degree from University of Maryland College Park on August 2011. Before that, I got my Bachelor degree from the University of Science and Technology of China (USTC) in 2004 and Master degree from Hong Kong University of Science and Technology (HKUST) in 2007.

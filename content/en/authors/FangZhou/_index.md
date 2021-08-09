@@ -14,7 +14,7 @@ role: PhD student of Cyberspace Science and Technology
 
 # Organizations/Affiliations
 organizations:
-  url: "https://www.ustc.edu.cn/"
+- url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio:

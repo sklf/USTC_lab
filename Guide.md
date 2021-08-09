@@ -1,5 +1,7 @@
 # 如何更新实验室网页中的个人资料
+
 本教程将会指导大家如何更新自己在实验室主页上的个人资料。
+
 - [如何更新实验室网页中的个人资料](#如何更新实验室网页中的个人资料)
   - [安装必要软件](#安装必要软件)
   - [如何参与更新](#如何参与更新)
@@ -65,6 +67,8 @@ Windows系统请执行以下步骤:
        ```
     6. 在 自己 fork 的 GitHub 仓库主页点击 `Pull requests` 按钮，选择将`dev`的内容 merge 到 `upstream` 仓库的`dev`分支上，写上PR摘要，提交申请。
 
+
+
 ## 文件存放路径
 在本 GitHub 仓库中，所有个人资料均保存在 `content` 路径下面， 其中 `content\en` 存放英文版网页内容， `content\zh` 存放中文版网页内容。 因此为了保证在不同语言环境下网页的统一，每一次更新网站内容时请**务必**同时更新上述两个路径下的相应文件。
 ## 修改个人资料
@@ -81,6 +85,7 @@ hugo new --kind authors authors/语种/姓名
 # Display name
 title: Chunyang Xie
 weight: 10
+
 
 # Is this the primary user of the site?
 superuser: false
@@ -163,6 +168,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
 本科生|Undergrad Students|
 校友|Alumni|
 
+
 请注意，`weight` 项为权重项，后面的数值表示排序的权重，越小则在网页上分组内展示越靠前。为了避免顺序混乱，目前暂时采用以下规则：
 
 入学年份|权重区间|
@@ -174,6 +180,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
 2022|81~100|
 
 同时需要注意，不同角色分组下的 `weight` **并不冲突**，因此可以放心使用上述规则，同一年份的权重分配原则上先到先得，也可以自行商量分配。
+
 
 
 文件最下面为个人介绍，请将中英文介绍分别填写至对应的文件中。
@@ -240,6 +247,7 @@ We propose a human sensing system with radio signals, MTrack, for in-home health
 
 文件最下方为项目介绍，将对应语种的介绍填写至文件中。
 ## 修改出版物信息
+
 发表的文章信息存放在 `content\语种\publication` 下面。每篇文章请存放在`姓名-文章关键字`文件夹下，如 `dongheng-MTrack`文件夹，英文版可以在本地项目根目录下通过以下命令创建：
 ```
 hugo new --kind publication publication/语种/姓名-文章关键字

@@ -1,9 +1,9 @@
 ---
 # Display name
 title: 解春阳
-
+weight: 3
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: 直博生
@@ -14,13 +14,22 @@ organizations:
   url: "https://www.uestc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 'test'
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Multimodal Machine Learning
+- Pose Estimation / Tracking
+- Wireless Sensing
 
+
+education:
+  courses:
+  - course: 信号与信息处理 博士
+    institution: 电子科技大学
+    year: 2018 - 至今
+  - course: 电子信息工程 学士
+    institution: 电子科技大学
+    year: 2014 - 2018
 # education:
 #   courses:
 #   - course: PhD in Artificial Intelligence
@@ -69,6 +78,6 @@ user_groups:
 - 博士生
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello! This is Chunyang Xie (解春阳). I am a Ph.D. student at at the School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC).I received B.S. degree from the University of Electronic Science and Technology of China (UESTC) in 2018.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am fortunate to be advised by [Prof. Yan Chen](https://chenyanustc.github.io/). My research interest lies in Multimodal Machine Learning, Pose Estimation / Tracking, and Wireless Sensing.

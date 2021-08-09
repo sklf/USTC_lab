@@ -1,5 +1,6 @@
 # 如何更新实验室网页中的个人资料
-本教程将会一步步指导大家如何更新自己在实验室主页上的个人资料。请注意，本项目基于 [Hugo](https://github.com/gohugoio/hugo) 和 [Wowchemy's Research Group Template](https://wowchemy.com/templates/) 开发而成，设计理念受到博客 [《How to Build Academic Website for Research Group in 2021》](https://jedyang.com/post/how-to-build-academic-research-group-website-in-2021/) 启发。
+
+本教程将会指导大家如何更新自己在实验室主页上的个人资料。
 
 - [如何更新实验室网页中的个人资料](#如何更新实验室网页中的个人资料)
   - [安装必要软件](#安装必要软件)
@@ -65,10 +66,6 @@ Windows系统请执行以下步骤:
         git status
        ```
     6. 在 自己 fork 的 GitHub 仓库主页点击 `Pull requests` 按钮，选择将`dev`的内容 merge 到 `upstream` 仓库的`dev`分支上，写上PR摘要，提交申请。
-    
-5. 在本地仓库自己的分支下修改个人资料，提交 commit 并 pull 到自己fork 的 GitHub 仓库中，在 GitHub 仓库主页点击 `Pull requests` 按钮，选择将自己分支的内容 merge 到 `upstream` 仓库的`dev`分支上，写上PR摘要，提交申请。
-
-
 
 
 
@@ -87,6 +84,8 @@ hugo new --kind authors authors/语种/姓名
 ---
 # Display name
 title: Chunyang Xie
+weight: 10
+
 
 # Is this the primary user of the site?
 superuser: false
@@ -169,6 +168,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
 本科生|Undergrad Students|
 校友|Alumni|
 
+
+请注意，`weight` 项为权重项，后面的数值表示排序的权重，越小则在网页上分组内展示越靠前。为了避免顺序混乱，目前暂时采用以下规则：
+
+入学年份|权重区间|
+--|:--:|
+2018 及以前|1~20|
+2019|21~40|
+2020|41~60|
+2021|61~80|
+2022|81~100|
+
+同时需要注意，不同角色分组下的 `weight` **并不冲突**，因此可以放心使用上述规则，同一年份的权重分配原则上先到先得，也可以自行商量分配。
+
+
+
 文件最下面为个人介绍，请将中英文介绍分别填写至对应的文件中。
 ## 修改项目信息
 项目资料存放在 `content\语种\project` 路径下，如果需要新建项目，请自行建立相应文件夹（如 `content\en\project\MTrack`)，英文版可以在本地项目根目录下通过以下命令创建：
@@ -233,7 +247,7 @@ We propose a human sensing system with radio signals, MTrack, for in-home health
 
 文件最下方为项目介绍，将对应语种的介绍填写至文件中。
 ## 修改出版物信息
-出版物信息
+
 发表的文章信息存放在 `content\语种\publication` 下面。每篇文章请存放在`姓名-文章关键字`文件夹下，如 `dongheng-MTrack`文件夹，英文版可以在本地项目根目录下通过以下命令创建：
 ```
 hugo new --kind publication publication/语种/姓名-文章关键字

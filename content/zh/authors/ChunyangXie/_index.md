@@ -21,6 +21,14 @@ interests:
 - Pose Estimation / Tracking
 - Wireless Sensing
 
+education:
+  courses:
+  - course: 信号与信息处理 博士
+    institution: 电子科技大学
+    year: 2018 - 至今
+  - course: 电子信息工程 学士
+    institution: 电子科技大学
+    year: 2014 - 2018
 # education:
 #   courses:
 #   - course: PhD in Artificial Intelligence

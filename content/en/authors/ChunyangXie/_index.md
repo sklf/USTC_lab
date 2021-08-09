@@ -11,27 +11,25 @@ role: PhD student of Artificial Intelligence
 # Organizations/Affiliations
 organizations:
 - name: UESTC
-  url: ""
+  url: "https://www.uestc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Multimodal Machine Learning
+- Pose Estimation / Tracking
+- Wireless Sensing
 
-# education:
-#   courses:
-#   - course: PhD in Artificial Intelligence
-#     institution: Stanford University
-#     year: 2012
-#   - course: MEng in Artificial Intelligence
-#     institution: Massachusetts Institute of Technology
-#     year: 2009
-#   - course: BSc in Artificial Intelligence
-#     institution: Massachusetts Institute of Technology
-#     year: 2008
+education:
+  courses:
+  - course: PhD in Artificial Intelligence
+    institution: University of Electronic Science and Technology of China
+    year: 2018 - now
+  - course: B.S. in Electronic Engineering
+    institution: University of Electronic Science and Technology of China
+    year: 2014-2018
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -68,6 +66,6 @@ user_groups:
 - Ph.D. Students
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hello! This is Chunyang Xie (解春阳). I am a Ph.D. student at at the School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC).I received B.S. degree from the University of Electronic Science and Technology of China (UESTC) in 2018.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am fortunate to be advised by [Prof. Yan Chen](https://chenyanustc.github.io/). My research interest lies in Multimodal Machine Learning, Pose Estimation / Tracking, and Wireless Sensing.

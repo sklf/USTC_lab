@@ -226,7 +226,6 @@ We propose a human sensing system with radio signals, MTrack, for in-home health
 
 文件最下方为项目介绍，将对应语种的介绍填写至文件中。
 ## 修改出版物信息
-出版物信息
 发表的文章信息存放在 `content\语种\publication` 下面。每篇文章请存放在`姓名-文章关键字`文件夹下，如 `dongheng-MTrack`文件夹，英文版可以在本地项目根目录下通过以下命令创建：
 ```
 hugo new --kind publication publication/语种/姓名-文章关键字

@@ -1,16 +1,16 @@
 ---
 # Display name
-title: "Fang Zhou"
+title: "Bin-Bin Zhang"
 weight: 79
 # Username (this should match the folder name and the name on publications)
 authors:
-- "Fang Zhou"
+- "Bin-Bin Zhang"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: PhD student
+role: Ph.D student
 
 # Organizations/Affiliations
 organizations:
@@ -23,20 +23,17 @@ bio:
 interests:
 - Wireless Sensing
 - Signal Processing
-- Mobile Crowd Sensing 
+- Domain Adaptation 
 
 
 education:
   courses:
   - course: Ph.D. 
     institution: University of Science and Technology of China
-    year: 2021 - now
-  - course: M.S. in Power System
-    institution: The University of Manchester
-    year: 2019 -2021
-  - course: B.S. in Electrical Engineering
-    institution: The University of Liverpool
-    year: 2015 -2019
+    year: 2018 - now
+  - course: B.S. in Electronic Science and Technology
+    institution: Anhui University
+    year: 2010 -2014
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -46,10 +43,10 @@ social:
 
 - icon: envelope
   icon_pack: fas
-  link: 'fangzhoudzt@gmail.com'
+  link: 'robin18@mail.ustc.edu.cn'
 - icon: github
   icon_pack: fab
-  link: https://github.com/zfdzt
+  link: https://github.com/zhangbinbin18
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -68,4 +65,4 @@ user_groups:
 - Ph.D. Students
 ---
 
-Fang Zhou received B.S. degree from the University of Liverpool, UK, in 2019. He received M.S. degree from the University of Manchester, UK, in 2021. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include wireless sensing.
+Bin-Bin Zhang is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include wireless sensing.

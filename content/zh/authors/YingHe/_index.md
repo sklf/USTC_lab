@@ -1,6 +1,6 @@
 ---
 # Display name
-title:何莹
+title: 何莹
 weight: 3
 # Is this the primary user of the site?
 superuser: true

@@ -61,4 +61,4 @@ user_groups:
 - 博士生
 ---
 
-Zhi Lu received B.S. and MPhil. Pdegree from the University of Electronic Science and Technology of China. He is currently pursuing the Ph.D. degree at the School of Information and Communication Engineering, University of Electronic Science and Technology of China. He is supervised by Prof Bing Zeng and co-supervised by Prof. Yan Chen and Prof. Yang Hu. His current research interests include wireless sensing, and fashion recommendation.
+卢智在电子科技大学获得学士和硕士学位。他目前正在电子科技大学攻读信号与信息处理方向的博士学位。他的导师是曾兵教授，同时受到了陈彦和胡洋教授的指导。他目前的研究兴趣包括服饰推荐以及无线感知。

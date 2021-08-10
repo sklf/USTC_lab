@@ -4,7 +4,7 @@ title: 李亚东
 
 # Username (this should match the folder name)
 authors:
-- test
+- “Yadong Li”
 
 # Is this the primary user of the site?
 superuser: false
@@ -21,7 +21,7 @@ organizations:
 bio: 
 
 interests:
-- 无线感知
+- 毫米波感知
 - 手势识别
 
 
@@ -67,4 +67,4 @@ user_groups:
 
 ---
 
-李亚东于2021年获得郑州大学计算机科学与技术学士学位，当前在中国科学技术大学网络空间安全学院攻读硕士学位，导师为陈彦，当前研究兴趣包括无线感知。
+李亚东于2021年获得郑州大学计算机科学与技术学士学位，当前在中国科学技术大学网络空间安全学院攻读硕士学位，导师为陈彦，当前研究兴趣包括毫米波感知和雷达手势识别。

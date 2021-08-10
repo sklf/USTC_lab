@@ -17,7 +17,7 @@ organizations:
 bio:
 
 interests:
-- Wireless Sensing
+- Millimeter Wave Sensing
 - Gesture Recognition
 
 education:
@@ -36,7 +36,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:lyd1226lyd@163.com'
+  link: 'mailto:yadongli@mail.ustc.edu.cn'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
@@ -63,4 +63,4 @@ highlight_name: false
 user_groups:
 - Master Students
 ---
-Yadong Li received B.S. degree from the Zhengzhou University,  Zhengzhou, China, in 2021.  He is currently pursuing the M.S. degree at the School of Cyberspace Security, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include wireless sensing.
+Yadong Li received B.S. degree from the Zhengzhou University,  Zhengzhou, China, in 2021.  He is currently pursuing the M.S. degree at the School of Cyberspace Security, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include millimeter wave sensing and gesture recognition.

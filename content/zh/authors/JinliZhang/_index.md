@@ -6,7 +6,7 @@ weight: 75
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:硕士生
+role: 硕士生
 
 # Organizations/Affiliations
 organizations:

@@ -1,7 +1,7 @@
 ---
 # Display name
 title: "Ying He"
-
+weight: 3
 # Is this the primary user of the site?
 superuser: false
 
@@ -11,12 +11,11 @@ role: PhD student of Artificial Intelligence
 # Organizations/Affiliations
 organizations:
 - name: University of Electronic Science and Technology of China
-    url: "https://www.uestc.edu.cn/"
+  url: "https://www.uestc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
 
-# List each interest with a dash
 interests:
 - radio vision
 - computational imaging
@@ -24,7 +23,7 @@ interests:
 
 education:
   courses:
-  - course: Ph.D. in Signal processing
+  - course: PhD in Signal processing
     institution: University of Electronic Science and Technology of China
     year: 2017 - now
   - course: B.S. in Electronic Engineering

@@ -1,35 +1,33 @@
 ---
 # Display name
-title: Jinbo Chen
-weight: 46
+title: Yadong Li
+
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD student
+role: Master student
 
 # Organizations/Affiliations
 organizations:
 - name: University of Science and Technology of China
-  url: "https://www.ustc.edu.cn/"
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
 interests:
-- Wireless Sensing
-- Statistical Signal Processing
-- Digital Health
+- Millimeter Wave Sensing
+- Gesture Recognition
 
 education:
   courses:
-  - course: M.S. in Electrical Engineering
-    institution: Washington University in St.Louis
-    year: 2014 - 2016
-  - course: B.S. in Electrical Engineering
-    institution: Hefei University of Technology
-    year: 2010 - 2014
-
+  - course: Master in Cyberspace Security
+    institution: University of Science and Technology of China
+    year: 2021 - now
+  - course: BSc in Computer Science
+    institution: Zhengzhou University
+    year: 2017 - 2021
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -38,16 +36,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:jinbochen@mail.ustc.edu.cn'
+  link: 'mailto:yadongli@mail.ustc.edu.cn'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
 # - icon: google-scholar
-#   icon_pack: fab
-#   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
+#   icon_pack: ai
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/kablueybo
+  link: https://github.com/EastLYD
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,7 +61,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Ph.D. Students
+- Master Students
 ---
-
-Jinbo Chen received B.S. from Hefei University of Technology in 2014 and M.S. from Washington University in St.Louis in 2016. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen and Prof. Qibin Sun. His current research interests include wireless sensing, digital health.
+Yadong Li received B.S. degree from the Zhengzhou University,  Zhengzhou, China, in 2021.  He is currently pursuing the M.S. degree at the School of Cyberspace Security, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include millimeter wave sensing and gesture recognition.

@@ -1,58 +1,54 @@
 ---
 # Display name
-title: Dongheng Zhang
-weight: 1
-# Is this the primary user of the site?
-superuser: true
+title: "Zhi Lu"
+weight: 10
+# Username (this should match the folder name and the name on publications)
+authors:
+- "zhilu"
 
-# Role/position
-role: Postdoc
+# Is this the primary user of the site?
+superuser: false
+
+# Role/position (e.g., Professor of Artificial Intelligence)
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
-- name: University of Science and Technology of China
-  url: "https://www.ustc.edu.cn/"
+- name: University of Electronic Science and Technology of China
+  url: "https://www.uestc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio:
 
+# List each interest with a dash
 interests:
-- Signal Processing
-- Wireless Network
+- Fashion Recommendation
+- Wireless Sensing
+
 
 education:
   courses:
-  - course: PhD in Signal and Information Processing
+  - course: MPhil. Signal and Information Processing 
     institution: University of Electronic Science and Technology of China
-    year: 2017 - 2021
+    year: 2015 - 1028
   - course: B.S. in Electronic Engineering
     institution: University of Electronic Science and Technology of China
-    year: 2013-2017
-
+    year: 2011 - 2015
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:dongheng@ustc.edu.cn'
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
-# - icon: google-scholar
-#   icon_pack: fab
-#   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
-- icon: globe
-  icon_pack: fas
-  link: 'https://zhangdh24.github.io/'
+  link: 'mailto:zhilu@std.uestc.edu.cn'
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
+  link: https://scholar.google.com/citations?user=WvoIsHkAAAAJ&hl=zh-CN
 - icon: github
   icon_pack: fab
-  link: https://github.com/zhangdh24
+  link: https://github.com/lzcn
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -68,8 +64,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Postdocs
+- Ph.D. Students
 ---
 
-Dongheng Zhang received B.S and Ph.D degree both from University of Electronic Science and Technology of China (UESTC) in 2017 and 2021, respectively. He is currently a Postdoc
-researcher at University of Science and Technology of China. 
+Zhi Lu received B.S. and MPhil. Pdegree from the University of Electronic Science and Technology of China. He is currently pursuing the Ph.D. degree at the School of Information and Communication Engineering, University of Electronic Science and Technology of China. He is supervised by Prof Bing Zeng and co-supervised by Prof. Yan Chen and Prof. Yang Hu. His current research interests include wireless sensing, and fashion recommendation.

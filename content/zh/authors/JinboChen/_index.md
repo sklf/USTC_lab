@@ -1,16 +1,16 @@
 ---
 # Display name
-title: Jinbo Chen
+title: 陈金波
 weight: 46
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD student
+role: 博士生
 
 # Organizations/Affiliations
 organizations:
-- name: University of Science and Technology of China
+- name: 中国科学技术大学
   url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
@@ -23,11 +23,11 @@ interests:
 
 education:
   courses:
-  - course: M.S. in Electrical Engineering
-    institution: Washington University in St.Louis
+  - course: 电气工程 硕士
+    institution: 圣路易斯华盛顿大学
     year: 2014 - 2016
-  - course: B.S. in Electrical Engineering
-    institution: Hefei University of Technology
+  - course: 电气工程 学士
+    institution: 合肥工业大学
     year: 2010 - 2014
 
 
@@ -63,7 +63,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Ph.D. Students
+- 博士生
 ---
 
-Jinbo Chen received B.S. from Hefei University of Technology in 2014 and M.S. from Washington University in St.Louis in 2016. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen and Prof. Qibin Sun. His current research interests include wireless sensing, digital health.
+Jinbo Chen received B.S. from Hefei University of Technology in 2014 and  M.S. from Washington University in St.Louis in 2016. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen and Prof. Qibin Sun. His current research interests include wireless sensing, digital health.

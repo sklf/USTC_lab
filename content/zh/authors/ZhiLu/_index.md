@@ -1,7 +1,7 @@
 ---
 # Display name
 title: 卢智
-weight: 4
+weight: 10
 # Is this the primary user of the site?
 superuser: false
 

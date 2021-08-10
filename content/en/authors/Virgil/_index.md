@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Jinbo Chen
+title: Zhi Wu
 weight: 46
 # Is this the primary user of the site?
 superuser: false
@@ -17,18 +17,18 @@ organizations:
 bio: 
 
 interests:
+- Computer Vision
 - Wireless Sensing
-- Statistical Signal Processing
-- Digital Health
+- Deep Learning
 
 education:
   courses:
-  - course: M.S. in Electrical Engineering
-    institution: Washington University in St.Louis
-    year: 2014 - 2016
-  - course: B.S. in Electrical Engineering
-    institution: Hefei University of Technology
-    year: 2010 - 2014
+  - course: Ph.D. in Cyberspace Science and Technology
+    institution: University of Science and Technology of China
+    year: 2018 - now
+  - course: B.S. in Computer Engineering and Science
+    institution: Shanghai University
+    year: 2014-2018
 
 
 # Social/Academic Networking
@@ -38,7 +38,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:jinbochen@mail.ustc.edu.cn'
+  link: 'mailto:wzwyyx@mail.ustc.edu.cn'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
@@ -47,7 +47,7 @@ social:
 #   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/kablueybo
+  link: https://github.com/wuzhiwyyx
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,4 +66,4 @@ user_groups:
 - Ph.D. Students
 ---
 
-Jinbo Chen received B.S. from Hefei University of Technology in 2014 and M.S. from Washington University in St.Louis in 2016. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen and Prof. Qibin Sun. His current research interests include wireless sensing, digital health.
+Zhi Wu received B.S. from Shanghai University in 2018. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include Computer Vision, wireless sensing.

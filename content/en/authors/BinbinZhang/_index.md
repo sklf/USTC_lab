@@ -30,7 +30,7 @@ education:
   courses:
   - course: Ph.D. in Cyberspace Science and Technology
     institution: University of Science and Technology of China
-    year: 2018 - now
+    year: 2018 - Now
   - course: B.S. in Electronic Science and Technology
     institution: Anhui University
     year: 2010 -2014

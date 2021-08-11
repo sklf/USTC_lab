@@ -117,6 +117,19 @@ education:
   - course: BSc in Artificial Intelligence
     institution: Massachusetts Institute of Technology
     year: 2008
+# Publications
+patent:
+- 'Yan Chen, Hongyu Deng, Dongheng Zhang, Yang Hu, SpeedNet: Indoor Speed Estimation with Radio Signals, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.3022071'
+- 'Ying He,Yan Chen, Yang Hu, and Bing Zeng, WiFi Vision: Sensing, Recognition, and Detection with Commodity MIMO-OFDM WiFi, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.2989426'
+- 'Yan Chen, Xiang Su, Yang Hu, Bing Zeng, Residual Carrier Frequency Offset Estimation and Compensation for Commodity WiFi, to appear in IEEE Transactions on Mobile Computing, DOI:10.1109/TMC.2019.2934106'
+  
+journal:
+- 'Yan Chen, Hongyu Deng, Dongheng Zhang, Yang Hu, SpeedNet: Indoor Speed Estimation with Radio Signals, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.3022071'
+- 'Ying He,Yan Chen, Yang Hu, and Bing Zeng, WiFi Vision: Sensing, Recognition, and Detection with Commodity MIMO-OFDM WiFi, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.2989426'
+
+conference:
+- 'Yan Chen, Hongyu Deng, Dongheng Zhang, Yang Hu, SpeedNet: Indoor Speed Estimation with Radio Signals, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.3022071'
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -158,7 +171,9 @@ Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
 ```
-`title` 项修改为自己的名字，注意中英文版的差别。`role` 填写自己当前的身份，如 `PhD student` 或 `博士生`。 `organization` 下的 `name` 填写学校名称，`url` 填写学校官网网址。 `bio` 可以填写简短的自我介绍或者不填。`interests` 填写自己感兴趣的研究方向。`education` 列举自己的教育经历。`social`类根据需要更新自己的个人主页/github主页/电子邮件等等。注意，`user_groups` 需要从以下类别中选取，否则网页无法正确将你的个人资料分类：
+`title` 项修改为自己的名字，注意中英文版的差别。`role` 填写自己当前的身份，如 `PhD student` 或 `博士生`。 `organization` 下的 `name` 填写学校名称，`url` 填写学校官网网址。 `bio` 可以填写简短的自我介绍或者不填。`interests` 填写自己感兴趣的研究方向。`education` 列举自己的教育经历。`patent` 、`journal`、 `cinference` 分别按实例格式填写自己发表的专利、期刊和会议论文，如果没有，可以注释掉。
+
+`social`类根据需要更新自己的个人主页/github主页/电子邮件等等。注意，`user_groups` 需要从以下类别中选取，否则网页无法正确将你的个人资料分类：
 中文版|英文版|
 --|:--:|
 教职工|Faculty|

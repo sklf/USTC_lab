@@ -1,35 +1,46 @@
 ---
 # Display name
-title: Jinbo Chen
+title: 武治
 weight: 46
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD student
+role: 博士生
 
 # Organizations/Affiliations
 organizations:
-- name: University of Science and Technology of China
+- name: 中国科学技术大学
   url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 interests:
+- Computer Vision
 - Wireless Sensing
-- Statistical Signal Processing
-- Digital Health
+- Deep Learning
+
 
 education:
   courses:
-  - course: M.S. in Electrical Engineering
-    institution: Washington University in St.Louis
-    year: 2014 - 2016
-  - course: B.S. in Electrical Engineering
-    institution: Hefei University of Technology
-    year: 2010 - 2014
-
+  - course: 网络空间安全 博士
+    institution: 中国科学技术大学
+    year: 2018 - 至今
+  - course: 计算机工程与科学 学士
+    institution: 上海大学
+    year: 2014 - 2018
+# education:
+#   courses:
+#   - course: PhD in Artificial Intelligence
+#     institution: Stanford University
+#     year: 2012
+#   - course: MEng in Artificial Intelligence
+#     institution: Massachusetts Institute of Technology
+#     year: 2009
+#   - course: BSc in Artificial Intelligence
+#     institution: Massachusetts Institute of Technology
+#     year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -38,16 +49,17 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:jinbochen@mail.ustc.edu.cn'
+  link: 'mailto:wzwyyx@mail.ustc.edu.cn'
+
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
 # - icon: google-scholar
-#   icon_pack: fab
-#   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
+#   icon_pack: ai
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/kablueybo
+  link: https://github.com/wuzhiwyyx
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,7 +75,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Ph.D. Students
+- 博士生
 ---
 
-Jinbo Chen received B.S. from Hefei University of Technology in 2014 and M.S. from Washington University in St.Louis in 2016. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen and Prof. Qibin Sun. His current research interests include wireless sensing, digital health.
+Zhi Wu received B.S. from Shanghai University in 2018. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include Computer Vision, wireless sensing.

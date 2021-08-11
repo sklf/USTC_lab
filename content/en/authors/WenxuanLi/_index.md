@@ -1,12 +1,16 @@
 ---
 # Display name
-title: Jinbo Chen
-weight: 46
+title: "WenxuanLi"
+weight: 50
+# Username (this should match the folder name and the name on publications)
+authors:
+- "wenxuanli"
+
 # Is this the primary user of the site?
 superuser: false
 
-# Role/position
-role: PhD student
+# Role/position (e.g., Professor of Artificial Intelligence)
+role: Master Students of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
@@ -14,40 +18,40 @@ organizations:
   url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: sb
 
+# List each interest with a dash
 interests:
 - Wireless Sensing
-- Statistical Signal Processing
-- Digital Health
+- signal processing
+- fall detection
 
 education:
   courses:
-  - course: M.S. in Electrical Engineering
-    institution: Washington University in St.Louis
-    year: 2014 - 2016
-  - course: B.S. in Electrical Engineering
-    institution: Hefei University of Technology
-    year: 2010 - 2014
-
+  - course: M.S. in Cyberspace Security
+    institution: University of Science and Technology of China
+    year: 2020-now
+  - course: B.S. in Information Security
+    institution: University of Science and Technology of China
+    year: 2016-2020
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:jinbochen@mail.ustc.edu.cn'
+  link: lwx713@mail.ustc.edu.cn  # For a direct email link, use "mailto:test@example.org".
 # - icon: twitter
 #   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
+#   link: https://twitter.com/ljxm5
 # - icon: google-scholar
-#   icon_pack: fab
-#   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
+#   icon_pack: ai
+#   link: https://scholar.google.com/citations?user=PERSON-ID
 - icon: github
   icon_pack: fab
-  link: https://github.com/kablueybo
+  link: https://github.com/xuanmeikawaii/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,7 +67,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Ph.D. Students
+- Master Students
 ---
-
-Jinbo Chen received B.S. from Hefei University of Technology in 2014 and M.S. from Washington University in St.Louis in 2016. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen and Prof. Qibin Sun. His current research interests include wireless sensing, digital health.
+This is WenxuanLi,a Master Students of Artificial Intelligence in USTC,My research interest lies in Wireless Sensing and recent work is Fall Detection

@@ -54,7 +54,8 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "robin18@mail.ustc.edu.cn"
+
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -65,3 +66,4 @@ user_groups:
 - Ph.D. Students
 ---
 Hello! I am currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China(USTC), Hefei, China. I am supervised by Prof. Yan Chen. My current research interests include wireless sensing, deep learning and domain adaptation.
+

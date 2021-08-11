@@ -1,7 +1,7 @@
 ---
 # Display name
 title: 周放
-weight: 79
+weight: 78
 # Username (this should match the folder name and the name on publications)
 
 # Is this the primary user of the site?

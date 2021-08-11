@@ -4,7 +4,7 @@
 title: "MTrack: Tracking Multi-Person Moving
 Trajectories and Vital Signs with Radio Signals"
 summary: ""
-authors: [Dongheng Zhang]
+authors: [DonghengZhang]
 tags: [object track]
 categories: []
 date: 2021-08-07T19:45:56+08:00

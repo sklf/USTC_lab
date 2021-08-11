@@ -150,3 +150,12 @@
   translation: 知道了!
 - id: cookie_learn
   translation: 了解更多
+- id: patent
+  translation: 专利
+- id: journal
+  translation: 期刊
+- id: conference
+  translation: 会议
+- id: award
+  translation: 获奖情况
+

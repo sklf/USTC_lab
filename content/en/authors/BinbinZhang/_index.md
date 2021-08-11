@@ -22,15 +22,15 @@ bio:
 # List each interest with a dash
 interests:
 - Wireless Sensing
-- Signal Processing
+- Deep Learning
 - Domain Adaptation 
 
 
 education:
   courses:
-  - course: Ph.D. 
+  - course: Ph.D. in Cyberspace Science and Technology 
     institution: University of Science and Technology of China
-    year: 2018 - now
+    year: 2018 - Now
   - course: B.S. in Electronic Science and Technology
     institution: Anhui University
     year: 2010 -2014
@@ -56,6 +56,7 @@ social:
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "robin18@mail.ustc.edu.cn"
 
+
 # Highlight the author in author lists? (true/false)
 highlight_name: false
 
@@ -64,5 +65,5 @@ highlight_name: false
 user_groups:
 - Ph.D. Students
 ---
+Hello! I am currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China(USTC), Hefei, China. I am supervised by Prof. Yan Chen. My current research interests include wireless sensing, deep learning and domain adaptation.
 
-Bin-Bin Zhang is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include wireless sensing.

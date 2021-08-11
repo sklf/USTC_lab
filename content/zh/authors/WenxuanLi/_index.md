@@ -1,34 +1,38 @@
 ---
 # Display name
-title: "Ying He"
-weight: 1
+title: 李文轩
+weight: 50
+# Username (this should match the folder name and the name on publications)
+authors:
+- "wenxuanli"
+
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: PhD student of Artificial Intelligence
+role: 硕士生
 
 # Organizations/Affiliations
 organizations:
-- name: University of Electronic Science and Technology of China
-  url: "https://www.uestc.edu.cn/"
+- name: 中国科学技术大学
+  url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio:
+bio: 菜
 
+# List each interest with a dash
 interests:
-- radio vision
-- computational imaging
-- array signal processing
+- Wireless Sensing
+- fall detection
 
 education:
   courses:
-  - course: PhD in Signal processing
-    institution: University of Electronic Science and Technology of China
-    year: 2017 - now
-  - course: B.S. in Electronic Engineering
-    institution: University of Electronic Science and Technology of China
-    year: 2013 -2017
+  - course: 网络空间安全硕士
+    institution: 中国科学技术大学
+    year: 2020-至今
+  - course: 信息安全本科
+    institution: 中国科学技术大学
+    year: 2016-2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -37,10 +41,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:heying@std.uestc.edu.cn'
+  link: lwx713@mail.ustc.edu.cn  # For a direct email link, use "mailto:test@example.org".
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/ljxm5
+# - icon: google-scholar
+#   icon_pack: ai
+#   link: https://scholar.google.com/citations?user=PERSON-ID
 - icon: github
   icon_pack: fab
-  link: https://github.com/YeingHe
+  link: https://github.com/xuanmeikawaii/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -56,6 +66,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Ph.D. Students
+- 硕士生
 ---
-YingHe received the B.S. degree from the University of Electronic Science and Technology of China, Chengdu, China, in 2017. She is currently pursuing the Ph.D. degree at the School of Information and Communication Engineering, University of Electronic Science and Technology of China, Chengdu, China. She is supervised by Prof. Yan Chen. Her current research interests include radio vision, computational imaging, array signal processing
+
+你好，我是李文轩，现在是一名中国科学技术大学的硕士研究生，方向是无线感知，最近在做跌倒检测

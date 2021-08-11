@@ -1,46 +1,52 @@
 ---
 # Display name
-title: "Ying He"
-weight: 1
+title: "Bin-Bin Zhang"
+weight: 79
+# Username (this should match the folder name and the name on publications)
+authors:
+- "Bin-Bin Zhang"
+
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: PhD student of Artificial Intelligence
+role: Ph.D student
 
 # Organizations/Affiliations
 organizations:
-- name: University of Electronic Science and Technology of China
-  url: "https://www.uestc.edu.cn/"
+- url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
 
+# List each interest with a dash
 interests:
-- radio vision
-- computational imaging
-- array signal processing
+- Wireless Sensing
+- Deep Learning
+- Domain Adaptation 
+
 
 education:
   courses:
-  - course: PhD in Signal processing
-    institution: University of Electronic Science and Technology of China
-    year: 2017 - now
-  - course: B.S. in Electronic Engineering
-    institution: University of Electronic Science and Technology of China
-    year: 2013 -2017
+  - course: Ph.D. in Cyberspace Science and Technology 
+    institution: University of Science and Technology of China
+    year: 2018 - Now
+  - course: B.S. in Electronic Science and Technology
+    institution: Anhui University
+    year: 2010 -2014
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:heying@std.uestc.edu.cn'
+  link: 'robin18@mail.ustc.edu.cn'
 - icon: github
   icon_pack: fab
-  link: https://github.com/YeingHe
+  link: https://github.com/zhangbinbin18
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -48,7 +54,8 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "robin18@mail.ustc.edu.cn"
+
 
 # Highlight the author in author lists? (true/false)
 highlight_name: false
@@ -58,4 +65,5 @@ highlight_name: false
 user_groups:
 - Ph.D. Students
 ---
-YingHe received the B.S. degree from the University of Electronic Science and Technology of China, Chengdu, China, in 2017. She is currently pursuing the Ph.D. degree at the School of Information and Communication Engineering, University of Electronic Science and Technology of China, Chengdu, China. She is supervised by Prof. Yan Chen. Her current research interests include radio vision, computational imaging, array signal processing
+Hello! I am currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China(USTC), Hefei, China. I am supervised by Prof. Yan Chen. My current research interests include wireless sensing, deep learning and domain adaptation.
+

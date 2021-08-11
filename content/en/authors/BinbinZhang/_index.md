@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: Ph.D. 
+  - course: Ph.D. in Cyberspace Science and Technology
     institution: University of Science and Technology of China
     year: 2018 - now
   - course: B.S. in Electronic Science and Technology
@@ -65,4 +65,4 @@ user_groups:
 - Ph.D. Students
 ---
 
-Bin-Bin Zhang is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include wireless sensing.
+Bin-Bin Zhang is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include wireless sensing、signal precessing and domain adaptation.

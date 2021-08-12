@@ -6,9 +6,8 @@ title: 'MTrack: Tracking Multiperson Moving Trajectories and Vital Signs With Ra
 subtitle: ''
 summary: ''
 authors:
-- Dongheng Zhang
-- Yang Hu
-- Yan Chen
+- DonghengZhang
+- YanChen
 tags: []
 categories: []
 date: '2021-01-01'

@@ -104,6 +104,15 @@
 - id: user_profile_latest
   translation: Latest
 
+- id: patent
+  translation: Patent Publication
+
+- id: journal
+  translation: Journal Publication
+
+- id: conference
+  translation: Conference Publication
+
 # Accomplishments widget
 
 - id: see_certificate
@@ -260,3 +269,4 @@
 
 - id: published_with
   translation: Published with {wowchemy} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.
+

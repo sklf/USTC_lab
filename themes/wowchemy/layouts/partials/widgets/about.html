@@ -109,3 +109,60 @@
     </div>
   </div>
 </div>
+
+<div class='row'>
+  {{ with $person.Journal }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "journal" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      <div class="col-md-12"></div>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+
+</div>
+
+<div class='row'>
+  {{ with $person.Conference }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "conference" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+
+</div>
+
+<div class='row'>
+  {{ with $person.Patent }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "patent" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+
+</div>
+
+<div class='row'>
+  {{ with $person.publications }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "awards" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+
+</div>

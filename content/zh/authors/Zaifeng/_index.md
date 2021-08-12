@@ -5,13 +5,13 @@ weight: 49
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "zaifeng"
+- "Zaifeng"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:硕士生
+role: 硕士生
 
 # Organizations/Affiliations
 organizations:

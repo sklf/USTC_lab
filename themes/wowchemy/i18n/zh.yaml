@@ -158,4 +158,12 @@
   translation: 会议
 - id: award
   translation: 获奖情况
+- id: service
+  translation: 学术服务
+- id: book
+  translation: 专著
 
+- id: master
+  translation: 硕士生
+- id: alumni
+  translation: 校友

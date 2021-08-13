@@ -69,6 +69,7 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Postdocs
+- Alumni
 ---
 
 Dongheng Zhang received B.S and Ph.D degree both from University of Electronic Science and Technology of China (UESTC) in 2017 and 2021, respectively. He is currently a Postdoc

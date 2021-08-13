@@ -18,7 +18,9 @@ organizations:
   url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: I have been a Professor at University of Science and Technology of China since March 2020. I was a Professor at University of Electronic Science and Technology of China from Sept. 2015 to Feb. 2020. I received my Ph.D. degree from University of Maryland College Park on August 2011. Before that, I got my Bachelor degree from the University of Science and Technology of China (USTC) in 2004 and Master degree from Hong Kong University of Science and Technology (HKUST) in 2007.
+bio: "Yan Chen (SM'14) received the bachelor degree from the University of Science and Technology of China in 2004, the M.Phil. degree from the Hong Kong University of Science and Technology in 2007, and the Ph.D. degree from the University of Maryland, College Park, MD, USA, in 2011. He was with Origin Wireless Inc. as a Founding Principal Technologist. From Sept. 2015 to Feb. 2020, he was a Professor with the School of Information and Communication Engineering at the University of Electronic Science and Technology of China. He is currently a Professor with the School of Cyberspace Security at the University of Science and Technology of China. 
+ 
+Dr. Chen’s research interests include wireless sensing and imaging, multimedia, and signal processing. He is a co-author of “Reciprocity, Evolution, and Decision Games in Network and Data Science” (Cambridge University Press, 2021) and “Behavior and Evolutionary Dynamics in Crowd Networks: An Evolutionary Game Approach” (Springer, 2020). He is the Associate Editor for IEEE Transactions on Network Science and Engineering, IEEE Transactions on Signal and Information Processing over Networks, and on the Editorial Board for MDPI Sensors and APSIPA Book Series. He is the Chair for APSIPA Signal and Information Processing Theory and Methods (SIPTM) Technical Committee, a Distinguished Lecturer for APSIPA, the Secretary-General for the CES Young Scientist Network Multimedia Technical Committee. He is an organizing co-chair of PCM 2017, a special session co-chair of APSIPA ASC 2017, the 10K Best Paper Award Committee member of ICME 2017, the multimedia communications symposium lead chair of WCSP 2019, an Area Chair for ACM Multimedia 2021. He was the recipient of multiple honors and awards, including the best paper award at the APSIPA ASC in 2020, the best student paper award at the PCM in 2017, the best student paper award at the IEEE ICASSP in 2016, the best paper award at the IEEE GLOBECOM in 2013."
 
 interests:
 - Multimedia
@@ -37,6 +39,16 @@ education:
     institution: Massachusetts Institute of Technology
     year: 2008
 # Publications
+book:
+- Signal Processing
+
+service:
+- AE
+  
+award:
+- IEEE Fellow
+
+
 patent:
 - 'Yan Chen, Hongyu Deng, Dongheng Zhang, Yang Hu, SpeedNet: Indoor Speed Estimation with Radio Signals, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.3022071'
 - 'Ying He,Yan Chen, Yang Hu, and Bing Zeng, WiFi Vision: Sensing, Recognition, and Detection with Commodity MIMO-OFDM WiFi, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.2989426'
@@ -182,6 +194,7 @@ user_groups:
 
 ---
 
-Yan Chen is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Yan Chen (SM'14) received the bachelor degree from the University of Science and Technology of China in 2004, the M.Phil. degree from the Hong Kong University of Science and Technology in 2007, and the Ph.D. degree from the University of Maryland, College Park, MD, USA, in 2011. He was with Origin Wireless Inc. as a Founding Principal Technologist. From Sept. 2015 to Feb. 2020, he was a Professor with the School of Information and Communication Engineering at the University of Electronic Science and Technology of China. He is currently a Professor with the School of Cyberspace Security at the University of Science and Technology of China. 
+<br>
+ 
+Dr. Chen’s research interests include wireless sensing and imaging, multimedia, and signal processing. He is a co-author of “Reciprocity, Evolution, and Decision Games in Network and Data Science” (Cambridge University Press, 2021) and “Behavior and Evolutionary Dynamics in Crowd Networks: An Evolutionary Game Approach” (Springer, 2020). He is the Associate Editor for IEEE Transactions on Network Science and Engineering, IEEE Transactions on Signal and Information Processing over Networks, and on the Editorial Board for MDPI Sensors and APSIPA Book Series. He is the Chair for APSIPA Signal and Information Processing Theory and Methods (SIPTM) Technical Committee, a Distinguished Lecturer for APSIPA, the Secretary-General for the CES Young Scientist Network Multimedia Technical Committee. He is an organizing co-chair of PCM 2017, a special session co-chair of APSIPA ASC 2017, the 10K Best Paper Award Committee member of ICME 2017, the multimedia communications symposium lead chair of WCSP 2019, an Area Chair for ACM Multimedia 2021. He was the recipient of multiple honors and awards, including the best paper award at the APSIPA ASC in 2020, the best student paper award at the PCM in 2017, the best student paper award at the IEEE ICASSP in 2016, the best paper award at the IEEE GLOBECOM in 2013.

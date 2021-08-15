@@ -4,7 +4,7 @@
 title: "时尚服饰的推荐与生成"
 summary: ""
 authors: ["卢智", "俞聪"]
-tags: [pose, segmentation, imaging]
+tags: ["服饰推荐", "图像生成", "计算机视觉"]
 categories: []
 date: 2021-08-15
 

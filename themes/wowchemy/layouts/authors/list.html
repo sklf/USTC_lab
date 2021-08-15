@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {{- define "main" -}}
 
 {{/* Author profile page. */}}
@@ -37,3 +38,99 @@
 </section>
 
 {{- end -}}
+=======
+
+{{/* Author profile page. */}}
+
+{{- define "main" -}}
+
+{{/* If an account has not been created for this user, just display their name as the title. */}}
+{{ if not .File }}
+<div class="universal-wrapper pt-3">
+  <h1 itemprop="name">{{ .Title }}</h1>
+</div>
+{{ end }}
+
+<section id="profile-page" class="pt-5">
+  <div class="container">
+    {{/* Show the About widget if an account exists for this user. */}}
+    {{ if .File }}
+      {{ $widget := "widgets/about.html" }}
+      {{ $username := (path.Base (path.Split .Path).Dir) }}{{/* Alternatively, use `index .Params.authors 0` */}}
+      {{ $params := dict "root" $ "page" . "author" $username }}
+      {{ partial $widget $params }}
+    {{end}}
+
+	  <!-- {{/* List only publications */}}
+    {{ $query := and (where .Pages ".IsNode" false) (where .Pages "Section" "publication") }}
+    {{ $count := len $query }}
+    {{ if $count }}
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>{{ i18n "publications" | default "Publications"}}</h3>
+      <ul>
+        {{ range $query }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }} -->
+
+    {{/* List only posts */}}
+    {{ $query := and (where .Pages ".IsNode" false) (where .Pages "Section" "post") }}
+    {{ $count := len $query }}
+    {{ if $count }}
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>{{ i18n "posts" | default "Posts"}}</h3>
+      <ul>
+        {{ range $query }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+
+    {{/* List only talks */}}
+    {{ $query := and (where .Pages ".IsNode" false) (where .Pages "Section" "talk") }}
+    {{ $count := len $query }}
+    {{ if $count }}
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>{{ i18n "talks" | default "Talks"}}</h3>
+      <ul>
+        {{ range $query }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+    
+    {{/* List only projects */}}
+    {{ $query := and (where .Pages ".IsNode" false) (where .Pages "Section" "project") }}
+    {{ $count := len $query }}
+    {{ if $count }}
+    <div class="article-widget">
+      <div class="hr-light"></div>
+      <h3>{{ i18n "projects" | default "Projects"}}</h3>
+      <ul>
+        {{ range $query }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        </li>
+        {{ end }}
+      </ul>
+    </div>
+    {{ end }}
+	
+  </div>
+</section>
+
+{{- end -}}
+>>>>>>> upstream/dev

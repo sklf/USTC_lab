@@ -1,5 +1,7 @@
 # 如何更新实验室网页中的个人资料
+
 本教程将会指导大家如何更新自己在实验室主页上的个人资料。
+
 - [如何更新实验室网页中的个人资料](#如何更新实验室网页中的个人资料)
   - [安装必要软件](#安装必要软件)
   - [如何参与更新](#如何参与更新)
@@ -65,6 +67,8 @@ Windows系统请执行以下步骤:
        ```
     6. 在 自己 fork 的 GitHub 仓库主页点击 `Pull requests` 按钮，选择将`dev`的内容 merge 到 `upstream` 仓库的`dev`分支上，写上PR摘要，提交申请。
 
+
+
 ## 文件存放路径
 在本 GitHub 仓库中，所有个人资料均保存在 `content` 路径下面， 其中 `content\en` 存放英文版网页内容， `content\zh` 存放中文版网页内容。 因此为了保证在不同语言环境下网页的统一，每一次更新网站内容时请**务必**同时更新上述两个路径下的相应文件。
 ## 修改个人资料
@@ -80,6 +84,8 @@ hugo new --kind authors authors/语种/姓名
 ---
 # Display name
 title: Chunyang Xie
+weight: 10
+
 
 # Is this the primary user of the site?
 superuser: false
@@ -111,6 +117,19 @@ education:
   - course: BSc in Artificial Intelligence
     institution: Massachusetts Institute of Technology
     year: 2008
+# Publications
+patent:
+- 'Yan Chen, Hongyu Deng, Dongheng Zhang, Yang Hu, SpeedNet: Indoor Speed Estimation with Radio Signals, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.3022071'
+- 'Ying He,Yan Chen, Yang Hu, and Bing Zeng, WiFi Vision: Sensing, Recognition, and Detection with Commodity MIMO-OFDM WiFi, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.2989426'
+- 'Yan Chen, Xiang Su, Yang Hu, Bing Zeng, Residual Carrier Frequency Offset Estimation and Compensation for Commodity WiFi, to appear in IEEE Transactions on Mobile Computing, DOI:10.1109/TMC.2019.2934106'
+  
+journal:
+- 'Yan Chen, Hongyu Deng, Dongheng Zhang, Yang Hu, SpeedNet: Indoor Speed Estimation with Radio Signals, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.3022071'
+- 'Ying He,Yan Chen, Yang Hu, and Bing Zeng, WiFi Vision: Sensing, Recognition, and Detection with Commodity MIMO-OFDM WiFi, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.2989426'
+
+conference:
+- 'Yan Chen, Hongyu Deng, Dongheng Zhang, Yang Hu, SpeedNet: Indoor Speed Estimation with Radio Signals, to appear in IEEE Internet of Things Journal,DOI:10.1109/JIOT.2020.3022071'
+
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -152,7 +171,9 @@ Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
 
 ```
-`title` 项修改为自己的名字，注意中英文版的差别。`role` 填写自己当前的身份，如 `PhD student` 或 `博士生`。 `organization` 下的 `name` 填写学校名称，`url` 填写学校官网网址。 `bio` 可以填写简短的自我介绍或者不填。`interests` 填写自己感兴趣的研究方向。`education` 列举自己的教育经历。`social`类根据需要更新自己的个人主页/github主页/电子邮件等等。注意，`user_groups` 需要从以下类别中选取，否则网页无法正确将你的个人资料分类：
+`title` 项修改为自己的名字，注意中英文版的差别。`role` 填写自己当前的身份，如 `PhD student` 或 `博士生`。 `organization` 下的 `name` 填写学校名称，`url` 填写学校官网网址。 `bio` 可以填写简短的自我介绍或者不填。`interests` 填写自己感兴趣的研究方向。`education` 列举自己的教育经历。`patent` 、`journal`、 `cinference` 分别按实例格式填写自己发表的专利、期刊和会议论文，如果没有，可以注释掉。
+
+`social`类根据需要更新自己的个人主页/github主页/电子邮件等等。注意，`user_groups` 需要从以下类别中选取，否则网页无法正确将你的个人资料分类：
 中文版|英文版|
 --|:--:|
 教职工|Faculty|
@@ -161,6 +182,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
 硕士生|Master Students|
 本科生|Undergrad Students|
 校友|Alumni|
+
+
+请注意，`weight` 项为权重项，后面的数值表示排序的权重，越小则在网页上分组内展示越靠前。为了避免顺序混乱，目前暂时采用以下规则：
+
+入学年份|权重区间|
+--|:--:|
+2018 及以前|1~20|
+2019|21~40|
+2020|41~60|
+2021|61~80|
+2022|81~100|
+
+同时需要注意，不同角色分组下的 `weight` **并不冲突**，因此可以放心使用上述规则，同一年份的权重分配原则上先到先得，也可以自行商量分配。
+
+
 
 文件最下面为个人介绍，请将中英文介绍分别填写至对应的文件中。
 ## 修改项目信息
@@ -226,7 +262,7 @@ We propose a human sensing system with radio signals, MTrack, for in-home health
 
 文件最下方为项目介绍，将对应语种的介绍填写至文件中。
 ## 修改出版物信息
-出版物信息
+
 发表的文章信息存放在 `content\语种\publication` 下面。每篇文章请存放在`姓名-文章关键字`文件夹下，如 `dongheng-MTrack`文件夹，英文版可以在本地项目根目录下通过以下命令创建：
 ```
 hugo new --kind publication publication/语种/姓名-文章关键字

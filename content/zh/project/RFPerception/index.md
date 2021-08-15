@@ -6,7 +6,7 @@ summary: ""
 authors: [俞聪, 武治]
 tags: [pose, segmentation, imaging]
 categories: []
-date: 2021-08-15T19:45:56+08:00
+date: 2021-08-07T19:45:56+08:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""

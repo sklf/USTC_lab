@@ -39,8 +39,8 @@ Led by Professor [Yan Chen](../author/yan-chen), the Intelligent Perception (IP)
 
 - Multimodal Sensing and Imaging
 
+- Multimedia Signal Processing
+
 - Wireless Multimedia
 
 - Digital Health
-
-- Artificial Intelligence

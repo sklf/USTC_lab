@@ -44,9 +44,9 @@ social:
 # - icon: google-scholar
 #   icon_pack: fab
 #   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
-- icon: globe
-  icon_pack: fas
-  link: 'https://zhangdh24.github.io/'
+# - icon: globe
+#   icon_pack: fas
+#   link: 'https://zhangdh24.github.io/'
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
@@ -69,7 +69,7 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Faculty
-- Alumni
+
 ---
 
 Dongheng Zhang received B.S and Ph.D degree both from University of Electronic Science and Technology of China (UESTC) in 2017 and 2021, respectively. He is currently a Postdoc

@@ -37,10 +37,10 @@ slides: ""
 ---
 
 Advances in machine learning and contactless sensors have given rise to digital health. We focus on healthcare in the radio world, leveraging the advances in wireless technology in all aspects of healthcare. 
-
+<br>
 Our recent research aims to develop contactless healthcare monitoring schemes based on commercial radio systems to achieve physiological information monitoring and health-critical human behaviors sensing under clinical and in-home environments. 
-
+<br>
 **Physiological information monitoring:**  We not only precisely measure the respiration and heartbeat rate, but also look deeper into the human body, e.g., monitoring electrocardiogram and blood pressure contactlessly. The proposed hybrid pipeline of signal processing and deep learning framework first extracts human micro-activity measurements from RF signal and then predicts the ECG and blood pressure with an interpretable neural networks that incorporate domain knowledge of RF signal and physiological models.
-
+<br>
 **Health-critical human behaviors sensing:** Beyond the physiological information, we also exploit RF signal to sense health-critical human behaviors such as fall. Our RF-based fall detection system utilizes spatio-temporal convolutional neural networks to aggregate information across space and time and extract the corresponding complex spatio-temporal patterns. We address the main challenge in practice fall detection, including dealing with complex falls and fast non-fall movements, generalization to new environments and detecting falls in the presence of other motion. 
 

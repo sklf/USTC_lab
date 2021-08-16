@@ -51,7 +51,7 @@ main_menu:
   show_logo: true
   show_translations: false
   show_language: false
-  show_day_night: true
+  show_day_night: false
   show_search: false
   highlight_active_link: true
 

@@ -24,7 +24,10 @@ design:
   # Add custom styles
   advanced:
     css_class: fullscreen
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["20px", "0", "20px", "0"]
  
 ---
-<br>
+
 The Intelligent Perception Lab is dedicated to the research of perceiving the environment, the behaviors of human in the environment, and the states of the organs inside human body, in a contactless way, to empower smart life since its founding in 2016.

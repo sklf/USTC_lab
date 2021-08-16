@@ -17,6 +17,9 @@ subtitle:
 
 design:
   columns: '1'
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["12px", "0", "10px", "0"]
   # background:
   #   color: "rgb(253, 251, 228)"
 

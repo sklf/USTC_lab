@@ -63,32 +63,27 @@
   {{ end }}
 
   {{else}}
-  {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
+  {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .)  }}
 
-  {{if $query | and (gt (len $page.Params.content.user_groups) 1) }}
+  {{if $query }}
   <div class="col-md-12">
     <h2 class="mb-4">{{ . | markdownify }}</h2>
   </div>
   {{end}}
-
-  {{ range $query }}
-  {{/* Get link to user's profile page. */}}
-  {{ $link := "" }}
-  {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
-    {{ $link = .RelPermalink }}
-  {{ end }}
-
-  <div class="col-12 col-sm-auto people-person">
-    <div class="portrait-title">
-  
-      <h2>{{ .Title }}</h2>
-      {{ if and $show_organizations .Params.organizations }}{{ range .Params.organizations }}<h3>{{ .name }}</h3>{{ end }}{{ end }}
-      {{ if and $show_role .Params.role }}<h3>{{ .Params.role | markdownify | emojify }}</h3>{{ end }}
-      
-      {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
-    </div>
+  {{range $query}}
+  {{$alumni := .Params}}
+  {{with $alumni.information}}
+  {{range .}}
+  <div class="port-title">
+    <h2>{{ .name }}</h2>
+    <h3>{{ printf "Year: %d" .year | markdownify | emojify }}</h3>
+    <p class="people-interests">{{ .now | markdownify | emojify }}</p>
   </div>
   {{end}}
+
+  {{end}}
+  {{end}}
+
 
   {{ end }}
   {{ end }}

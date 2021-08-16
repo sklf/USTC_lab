@@ -18,6 +18,9 @@ subtitle:
 hero_media: team.jpg
 
 design:
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+    padding: ["15px", "0", "10px", "0"]
   # background:
   #   gradient_start: '#4bb4e3'
   #   gradient_end: '#2b94c3'

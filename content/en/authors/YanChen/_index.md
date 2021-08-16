@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Yan Chen
-
+weight: 1
 # Username (this should match the folder name)
 # authors:
 # - Yan Chen

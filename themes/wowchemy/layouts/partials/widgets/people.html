@@ -74,11 +74,14 @@
   {{$alumni := .Params}}
   {{with $alumni.information}}
   {{range .}}
-  <div class="port-title">
-    <h2>{{ .name }}</h2>
-    <h3>{{ printf "Year: %d" .year | markdownify | emojify }}</h3>
-    <p class="people-interests">{{ .now | markdownify | emojify }}</p>
+  <div class="col-12 col-sm-auto people-person">
+    <div class="port-title">
+      <h2>{{ .name }}</h2>
+      <h3>{{ printf "Graduation year: %d" .year | markdownify | emojify }}</h3>
+      <p class="people-interests">{{ printf "Now: %s" .now | markdownify | emojify }}</p>
+    </div>
   </div>
+  
   {{end}}
 
   {{end}}

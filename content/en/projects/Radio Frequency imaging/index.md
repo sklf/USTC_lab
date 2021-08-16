@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Radio Frequency imaging"
+title: "Radio Frequency Imaging"
 weight: 30
 summary: 
 authors: [Chunyang Xie]

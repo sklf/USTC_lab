@@ -1,7 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "RF-based human sensing"
+title: "RF-based Human Sensing"
 weight: 20
 summary: 
 authors: [Chunyang Xie]

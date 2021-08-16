@@ -15,7 +15,7 @@ weight: 15
 title:  
 subtitle: 
 
-hero_media: team.jpg
+hero_media: 
 
 design:
   spacing:

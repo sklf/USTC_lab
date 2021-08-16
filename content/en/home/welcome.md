@@ -30,4 +30,4 @@ design:
  
 ---
 
-The Intelligent Perception Lab is dedicated to the research of perceiving the environment, the behaviors of human in the environment, and the states of the organs inside human body, in a contactless way, to empower smart life since its founding in 2016.
+The Intelligent Perception Lab is dedicated to the research of perceiving the environment, the behaviors of human in the environment, and the states of the organs inside human body, in a contactless way, to empower smart life.

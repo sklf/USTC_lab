@@ -1,0 +1,46 @@
+/*************************************************
+ *  allpubs widget
+ **************************************************/
+
+ .allpub-widget {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+  
+  .allpub-widget .portrait-title h2 {
+    font-size: 1rem;
+  }
+  
+  .allpub-widget .portrait-title h3 {
+    font-size: 0.7rem;
+  }
+  
+  .allpub-widget .avatar {
+    width: 80%;
+    max-width: 150px;
+    height: auto;
+  }
+  
+  
+  ol.ol-pubs {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  
+  ol.ol-pubs li {
+    font-size: 10px;
+    margin: 8px 0;
+    flex: 0 0 auto;
+  }
+
+
+  .photo{
+      float:left;
+      width:20%;
+  }
+  .intro{
+      float:right;
+      width:80%;
+  }
+
+  

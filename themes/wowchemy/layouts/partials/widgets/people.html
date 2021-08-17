@@ -23,6 +23,7 @@
   {{ end }}
 
   {{ range $page.Params.content.user_groups }}
+  {{if ne  .  (i18n "alumni") }}
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
   {{if $query | and (gt (len $page.Params.content.user_groups) 1) }}
@@ -59,6 +60,34 @@
       {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}
     </div>
   </div>
+  {{ end }}
+
+  {{else}}
+  {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .)  }}
+
+  {{if $query }}
+  <div class="col-md-12">
+    <h2 class="mb-4">{{ . | markdownify }}</h2>
+  </div>
+  {{end}}
+  {{range $query}}
+  {{$alumni := .Params}}
+  {{with $alumni.information}}
+  {{range .}}
+  <div class="col-12 col-sm-auto people-person">
+    <div class="port-title">
+      <h2>{{ .name }}</h2>
+      <h3>{{ printf "Graduation year: %d" .year | markdownify | emojify }}</h3>
+      <p class="people-interests">{{ printf "Now: %s" .now | markdownify | emojify }}</p>
+    </div>
+  </div>
+  
+  {{end}}
+
+  {{end}}
+  {{end}}
+
+
   {{ end }}
   {{ end }}
 </div>

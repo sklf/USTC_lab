@@ -109,3 +109,93 @@
     </div>
   </div>
 </div>
+
+<div class='row'>
+  {{ with $person.service }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "service" | markdownify }}</div>
+    <ul class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ul>
+    {{end}}
+  </div>
+
+</div>
+
+<div class='row'>
+  {{ with $person.award }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "award" | markdownify }}</div>
+    <ul class="ol-publication my-auto">
+      {{ range . }}
+      
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ul>
+    {{end}}
+  </div>
+
+</div>
+
+
+<div class='row'>
+  {{ with $person.book }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "book" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <div class="col-md-4">
+      <li>{{ . | markdownify | emojify }}</li>
+      </div>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+
+</div>
+
+<div class='row'>
+  {{ with $person.journal }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "journal" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      <div class="col-md-12"></div>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+
+</div>
+
+<div class='row'>
+  {{ with $person.conference }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "conference" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+
+</div>
+
+<div class='row'>
+  {{ with $person.patent }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "patent" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+
+</div>
+

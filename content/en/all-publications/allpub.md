@@ -1,0 +1,269 @@
+---
+journal:
+- Jiantao Zhou, Zhiqin Liang, Yan Chen, Oscar C. Au, “Security Analysis of Multimedia Encryption Schemes Based on Multiple Huffman Table", IEEE Signal Processing Letters, vol. 14, no. 3, pp. 201-204, March 2007 
+- Yan Chen, Yang Hu, Oscar C. Au, Houqiang Li, Chang Wen Chen, “Video Error Concealment Using Spatio-Temporal Boundary Matching and Partial Differential Equation", IEEE Transactions on Multimedia, vol. 10, no. 1, pp. 2-15, Jan. 2008 
+- Yan Chen, Oscar C. Au, Xiaopeng Fan, “Simultaneous MAP-Based Video Denoising and Rate-Distortion Optimized Video Encoding", IEEE Transactions on Circuits and Systems for Video Technology (CSVT), vol. 19, no. 1, pp. 15-26, Jan. 2009 
+- Xiaopeng Fan, Oscar C. Au, Yan Chen, Jiantao Zhou, Mengyao Ma and Peter H.W. Wong, “Wyner-ziv Based Bidirectionally Decodable Video Coding", Journal of Visual Communication and Image Representation (JVCI), Elsevier, 2009 
+- 'Xiaopeng Fan, Oscar Au, Ngai Man Cheung, Yan Chen and Jiantao Zhou, “Successive Refinement based Wyner-Ziv Video Compression", Signal processing: Image communication, Elsevier, 2009 '
+- Yan Chen, Beibei Wang, K. J. Ray Liu, “Multiuser Rate Allocation Games For Multimedia Communications", IEEE Transactions on Multimedia, vol. 11, no. 6, pp.1170-1181, Oct. 2009
+- 'Yan Chen, W. Sabrina Lin, K. J. Ray Liu, “Risk-Distortion Analysis for Video Collusion Attacks: A Mouse-and-Cat Game", IEEE Transactions on Image Processing, vol. 19, no. 7, pp.1798-1807, July 2010 '
+- Yan Chen, Yongle Wu, Beibei Wang, K. J. Ray Liu, “Spectrum Auction Games for Multimedia Streaming Over Cognitive Radio Networks", IEEE Transactions on Communications, vol. 58, no. 8, pp.2381-2390, August 2010 
+- 'Yan Chen, Beibei Wang, W. Sabrina Lin, Yongle Wu, K. J. Ray Liu, “Cooperative Peer-to-Peer Streaming: An Evolutionary Game-Theoretic Approach", IEEE Transactions on Circuits and Systems for Video Technology (CSVT), vol. 20, no. 10, pp.1346-1357, Oct. 2010 '
+- Yan Chen and K. J. Ray Liu, “Indirect Reciprocity Game Modelling for Cooperation Stimulation in Cognitive Networks", IEEE Transactions on Communications, vol. 59, no. 1, pp.159-168, Jan. 2011 
+- 'Yan Chen and K. J. Ray Liu, “Understanding Microeconomic Behaviors in Social Networking: An Engineering View", IEEE Signal Processing Magazine, Special Issue on Signal and Information Processing for Social Learning and Networking, vol. 29, no. 2, pp. 53-64, March, 2012'
+- 'Lu Fang, Oscar C. Au, Yan Chen, Aggelos K. Katsaggelos, Hanli Wang, Xing Wen, “Joint Demosaicing and Subpixel-Based Down-Sampling for Bayer Images: A Fast Frequency-Domain Analysis Approach", IEEE Transactions on Multimedia, vol. 14, no. 4, pp. 1359-1369, August, 2012'
+- Liang Xiao, Yan Chen, W. Sabrina Lin, K. J. Ray Liu, “Indirect Reciprocity Security Game for Large-Scale Wireless Networks", IEEE Transactions on Information Forensics and Security, vol. 7, no. 4, pp. 1368-1380, August, 2012
+- Chih-Yu Wang, Yan Chen, K. J. Ray Liu, “Chinese Restaurant Game", IEEE Signal Processing Letters, vol. 19, no. 12, pp. 898-901, Dec. 2012 
+- Yang Gao, Yan Chen, K. J. Ray Liu, “Cooperation Stimulation for Multiuser Cooperative Communications Using Indirect Reciprocity Game", IEEE Transactions on Communications, vol. 60, no. 12, pp. 3650-3661, Dec. 2012 
+- Biling Zhang, Yan Chen, K. J. Ray Liu, “An Indirect-Reciprocity Reputation Game for Cooperation in Dynamic Spectrum Access Networks", IEEE Transactions on Wireless Communications, vol. 11, no. 12, pp. 4328-4341, Dec. 2012 
+- Chih-Yu Wang, Yan Chen, K. J. Ray Liu, “Sequential Chinese Restaurant Game", IEEE Transactions on Signal Processing, vol. 61, no. 3, pp. 571-584, Feb. 2013 
+- Chunxiao Jiang, Yan Chen, K. J. Ray Liu, Y. Ren, “Renewal-Theoretical Dynamic Spectrum Access in Cognitive Radio Networks with Unknown Primary Behavior", IEEE Journal on Selected Areas in Communications, vol. 31, no. 3, pp. 406-416, March 2013
+- Chunxiao Jiang, Yan Chen, Yang Gao, K. J. Ray Liu, “Joint Spectrum Sensing and Access Evolutionary Game in Cognitive Radio Networks", IEEE Transactions on Wireless Communications, vol. 12, no. 5, pp.2470-2483, May 2013 
+- Jungho Myung, Yan Chen, K. J. Ray Liu, and Joonhyuk Kang, “Non-Cooperative Feedback Control Game for Secondary Transmitter in Cognitive Radio Network", IEEE Signal Processing Letters, vol. 20, no. 6, pp. 571-574, June 2013
+- Yan Chen and K. J. Ray Liu, “Image Denoising Games", IEEE Transactions on Circuits and Systems for Video Technology (CSVT), vol. 23, no. 10, pp. 1704-1716, Oct. 2013
+- Yu-Han Yang, Yan Chen, Chunxiao Jiang, Chih-Yu Wang, and K. J. Ray Liu, “Wireless Access Network Selection Game with Negative Network Externality", IEEE Transactions on Wireless Communications, vol. 12, no. 10, pp. 5048-5060, Oct. 2013 
+- 'Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, “Distributed Adaptive Networks: A Graphical Evolutionary Game-Theoretic View", IEEE Transactions on Signal Processing, vol. 61, no. 22, pp. 5675-5688, Nov. 2013 '
+- Yan Chen, Yu-Han Yang, Feng Han, and K. J. Ray Liu, "Time-Reversal Wideband Communications", IEEE Signal Processing Letters, vol. 20, no. 12, pp. 1219-1222, Dec. 2013
+- Hung-Quoc Lai, Yan Chen, and K. J. Ray Liu, "Energy Efficient Cooperative Communications Using Coalition Formation Games", Computer Networks, vol.58, pp. 228-238, Jan. 2014 
+- Tong Zhou, Yan Chen, and K. J. Ray Liu, "Network Formation Games in Cooperative MIMO Interference Systems", IEEE Transactions on Wireless Communications, vol.13, no.2, pp. 1140-1152, Feb. 2014 
+- 'Yan Chen, Feng Han, Yu-Han Yang, Hang Ma, Yi Han, Chunxiao Jiang, Hung-Quoc Lai, David Claffey, Zoltan Safar, and K. J. Ray Liu, “Time-Reversal Wireless Paradigm for Green Internet of Things: An Overview", IEEE Internet of Things Journal, vol.1, no.1, pp. 81-98, Feb. 2014'
+- 'Chunxiao Jiang, Yan Chen, Yu-Han Yang, and K. J. Ray Liu, “Dynamic Chinese Restaurant Game: Theory and Application to Cognitive Radio Networks", IEEE Transactions on Wireless Communications, vol.13, no.4, pp. 1960-1973, April 2014'
+- 'Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, “Multi-Channel Sensing and Access Game: Bayesian Social Learning with Negative Network Externality", IEEE Transactions on Wireless Communications, vol.13, no.4, pp. 2176-2188, April 2014'
+- Hang Ma, Yu-Han Yang, Yan Chen, K. J. Ray Liu, and Qi Wang, “Distributed State Estimation with Dimension Reduction Preprocessing", IEEE Transactions on Signal Processing, vol.62, no.12, pp. 3098-3110, June 2014 
+- Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, "On the Equivalence of Evolutionary Stable Strategies", IEEE Communications Letters, vol. 18, no. 6, pp. 995-998, June 2014
+- Chunxiao Jiang, Yan Chen and K. J. Ray Liu, "Graphical Evolutionary Game for Information Diffusion over Social Networks", IEEE Journal of Selected Topics in Signal Processing, vol.8, no.4, pp.524-536, August 2014
+- Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, “Evolutionary Dynamics of Information Diffusion over Social Networks", IEEE Transactions on Signal Processing, vol.62, no.17, pp.4573-4586, Sept. 2014 
+- Chunxiao Jiang, Yan Chen, K. J. Ray Liu, and Yong Ren, “Optimal Pricing Strategy for Operators in Cognitive Femtocell Networks", IEEE Transactions on Wireless Communications, vol.13, no.9, pp.5288-5301, Sept. 2014 
+- Yan Chen, W. Sabrina Lin, Feng Han, Yu-Han Yang, Zoltan Safar, and K. J. Ray Liu, “Incentive Compatible Demand Response Games for Distributed Load Prediction in Smart Grids", APSIPA Transactions on Signal and Information Processing (invited paper), vol 3, DOI:10.1017/ATSIP.2014.8, Sep 2014
+- Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, “Data-Driven Route Selection and Throughput Analysis in Cognitive Vehicular Networks", IEEE Journal on Selected Areas in Communications, vol.32, no.11, pp.2149-2162, Nov. 2014 
+- Xiaoyu Chu, Matthew C. Stamm, Yan Chen, and K. J. R. Liu, “On Anti-forensic Concealability with Rate-Distortion Tradeoff", IEEE Transactions on Image Processing, vol.24, no.3, pp.1087-1110, March 2015 
+- Yang Gao, Yan Chen, and K. J. Ray Liu, “On Cost-Effective Incentive Mechanisms in Microtask Crowdsourcing", IEEE Transactions on Computational Intelligence and AI in Games, vol.7, no.1,pp.3-15, March 2015 
+- 'Xuanyu Cao, Yan Chen, and K. J. Ray Liu, “Heterogeneous Cognitive Radio Networks: How to Procure and Price the Spectrum?", IEEE Transactions on Wireless Communications, vol.14, no.3, pp.1676-1688, March 2015 '
+- 'Chunxiao Jiang, Yan Chen, Yang Gao, and K. J. Ray Liu, “Indian Buffet Game with Negative Network Externality and Non-Bayesian Social Learning", IEEE Transactions on Systems, Man and Cybernetics, Part A: Systems and Humans, vol.45, no.4, pp.609-623, April 2015'
+- Tong Zhou, Yan Chen, Chunxiao Jiang and K. J. Ray Liu, “Pricing Game for Time Mute in Femto-Macro Co-existent Networks", IEEE Transactions on Wireless Communications, vol.14, no.4, pp. 2118-2130, April 2015 
+- Zhung-Han Wu, Yi Han, Yan Chen, and K. J. Ray Liu, “A Time-Reversal Paradigm for Indoor Positioning System", IEEE Transactions on Vehicular Technology, vol.64, no.4, pp. 1331-1339, April 2015 
+- 'Chih-Yu Wang, Yan Chen, Hung-Yu Wei, and K. J. Ray Liu, “Scalable Video Multicasting: A Stochastic Game Approach with Optimal Pricing", IEEE Transactions on Wireless Communications, vol.14, no.5, pp.2353-2367, May 2015'
+- Chunxiao Jiang, Yan Chen, K. J. Ray Liu, and Y. Ren “Networks Economics in Cognitive Networks", IEEE Communications Magazine, vol.53, no.5, pp.75-81, May 2015 
+- 'Chunxiao Jiang, Yan Chen, Yong Ren and K. J. Ray Liu, “Maximizing Network Capacity with Optimal Source Selection: A Perspective of Network Science", IEEE Signal Processing Letters, vol.22, no.7, pp.938-942, July 2015'
+- 'Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, “Nano-Scale Molecular Communication Networks: A Game Theoretic Perspective", EURASIP Journals on Advances in Signal Processing, vol.5 pp.1-15, 2015'
+- Meng-lin Ku, Yan Chen, and K. J. Ray Liu, “Data-Driven Stochastic Models and Policies for Energy Harvesting Sensor Communications", IEEE Journal on Selected Areas in Communications, vol 33, no 8, pp.1505-1520, Aug 2015. 
+- L. Xu, Chunxiao Jiang, Yan Chen, Y. Ren and K. J. R. Liu, “Privacy or Utility in Big Data? A Contract Theoretic Approach", IEEE Journal of Selected Topics in Signal Processing, vol 9, no 7, pp.1256-1269, Oct 2015. 
+- Wei Li, Meng-lin Ku, Yan Chen, and K. J. Ray Liu, “On Outage Probability for Stochastic Energy Harvesting Communications in Fading Channels", IEEE Signal Processing Letters, vol 22, no 11, pp.1893-1897, Nov 2015. 
+- B.L. Zhang, Yan Chen, C.Y. Wang, and K.J.R. Liu, "A Chinese Restaurant Game for Learning and Decision Making in Cognitive Radio Networks", Computer Networks, vol 91, pp.117-134, Nov 2015. 
+- 'Y. Gao, Yan Chen, and K.J.R. Liu, "Understanding Sequential User Behavior in Social Computing: to Answer or to Vote?", IEEE Trans. on Network Science and Engineering, vol.2, no.3, pp.112-126, Aug. 2015'
+- M.L. Ku, W. Li, Yan Chen, and K.J.R. Liu, "On Energy Harvesting Gain and Diversity Analysis in Cooperative Communications", IEEE Journal on Selected Areas in Communications, vol. 33, no. 12, pp.2641-2657, Dec 2015. 
+- Q.Y. Xu, Yan Chen, and K.J.R. Liu, "Combating Strong-Weak Spatial-Temporal Resonances in Time-Reversal Uplinks", IEEE Trans. on Wireless Communications, vol.15, no. 1, pp.568-580, Jan 2016.
+- Y.H. Yang, Yan Chen, C.X. Jiang, and K.J.R. Liu, "Wireless Network Association Game with Data-Driven Statistical Modeling", IEEE Trans. on Wireless Communications, vol.15, no.1, pp.512-524, Jan. 2016.
+- 'Yan Chen, C.X. Jiang, C.Y. Wang, Y. Gao, and K.J.R. Liu, "Decision Learning: Data Analytic Learning with Strategic Decision Making", IEEE Signal Processing Magazine, vol.33, no.1, pp.37-56, Jan. 2016.'
+- Lei Xu, Chunxiao Jiang, Yan Chen, Jian Wang and Yong Ren, “A Framework for Categorizing and Applying Privacy-Preservation Techniques in Big Data Mining", IEEE Transactions on Computer, vol.49, no.2, pp.54-62, Feb. 2016 
+- Yan Chen, B.B. Wang, Y. Han, H.Q. Lai, Z. Safar, and K.J.R. Liu, "Why Time-Reversal for Future 5G Wireless?", IEEE Signal Processing Magazine, vol 33, no 2, pp.17-24, March 2016. 
+- 'Xiaoyu Chu, Yan Chen, K.J.R. Liu, “Detectability of the Order of Operations: An Information Theoretic Approach", IEEE Transactions on Information Forensics and Security, vol.11, no.4, pp.823-836, April 2016'
+- 'X.Y. Chu, Yan Chen, M.C. Stamm, and K.J.R. Liu, "Information Theoretical Limit of Media Forensics: The Forensicability", IEEE Trans. on Information Forensics and Security, vol.11, no.4, pp.774-788, April 2016 '
+- H. Ma, B.B. Wang, Yan Chen, and K.J.R. Liu, "Time-Reversal Tunneling Effect for Cloud Radio Access Network", IEEE Trans. on Wireless Communications, vol 15, no 4, pp.3030-3043, April 2016. 
+- H. Lu, Y.C. Wang, Yan Chen, and K.J.R. Liu, "Stable Throughput Region and Admission Control for Device-to-Device Cellular Coexisting Networks", IEEE Trans. on Wireless Communications, vol 15, no 4, pp.2809-2824, April 2016. 
+- X.Y. Cao, Yan Chen, and K.J.R. Liu, "A Data Analytic Approach to Quantifying Scientific Impact", Journal of Informetrics, vol 10, no 2, pp.471-484, May 2016.
+- 'M.L. Ku, W. Li, Yan Chen, and K.J.R. Liu, "Advances in Energy Harvesting Communications: Past, Present, and Future Challenges", IEEE Communications Surveys and Tutorials, vol 18, no 2, pp.1384 - 1412, May 2016. '
+- W. Li, M.L. Ku, Yan Chen, and K.J.R. Liu, "On Outage Probability for Two-Way Relay Networks with Stochastic Energy Harvesting", IEEE Trans. on Communications, vol 64, no 5, pp.1901 - 1915, May 2016.
+- 'Y. Han, Yan Chen, B.B. Wang, and K.J.R. Liu, "Time-Reversal Massive Multipath Effect: A Single-Antenna "Massive MIMO" Solution", IEEE Trans. on Communications, vol 64, no 8, pp. 3382-3394, Aug 2016.'
+- 'M.L. Ku, Y. Han, H.Q. Lai, Yan Chen, and K.J.R. Liu, "Power Waveforming: Wireless Power Transfer Beyond Time-Reversal", IEEE Trans. on Signal Processing, vol 64, no 22, pp.5819-5834, Nov 2016. '
+- C. Chen, Y. Han, Yan Chen, and K.J.R. Liu, "Indoor Global Positioning System with Centimeter Accuracy Using Wi-Fi", IEEE Signal Processing Magazine, vol 33, no 6, pp.128-134, Nov 2016.
+- X.Y. Cao, Yan Chen, C.X. Jiang, and K.J.R. Liu, "Evolutionary Information Diffusion over Heterogeneous Social Networks", IEEE Trans. on Signal and Information Processing over Networks, vol 2, no 4, pp.595-610, Dec 2016.
+- 'Y. Han, Yan Chen, B.B. Wang, and K.J.R. Liu, "Enabling Heterogeneous Connectivity in Internet of Things: A Time-Reversal Approach", IEEE Internet of Things Journal, vol. 3, no. 6, pp. 1036-1047, Dec. 2016.'
+- 'C. Chen, Yan Chen, Y. Han, H.Q. Lai, F. Zhang, and K.J.R. Liu, "Achieving Centimeter Accuracy Indoor Localization on WiFi Platforms: An Multi-Antenna Approach", IEEE Internet of Things Journal, vol. 4, no. 1, pp. 122-134, Feb. 2017.'
+- 'C. Chen, Yan Chen, Y. Han, H.Q. Lai, and K.J.R. Liu, "Achieving Centimeter Accuracy Indoor Localization on WiFi Platforms: A Frequency Hopping Approach", IEEE Internet of Things Journal, vol. 4, no. 1, pp. 111-121, Feb. 2017.'
+- 'X.Y. Cao, Yan Chen, and K.J.R. Liu, "Understanding Popularity Dynamics: Decision-Making with Long-Term Incentives", IEEE Trans. on Signal and Information Processing over Networks, vol. 3, no. 1, pp. 91-103, March 2017.'
+- 'Q.Y. Xu, Yan Chen, B.B. Wang, and K.J.R. Liu, "Radio Biometrics: Human Recognition Through a Wall", IEEE Trans. on Information Forensics and Security, vol. 12, no. 5, pp. 1141-1155, May 2017.'
+- 'Q.Y. Xu, Yan Chen, B.B. Wang, and K.J.R. Liu, "TRIEDS: Wireless Events Detection Through the Wall", IEEE Internet of Things Journal, vol 4, no 3, pp.723 - 735, June 2017.' 
+- 'X.Y. Cao, Yan Chen, and K.J.R. Liu, "Data Trading with Multiple Owners, Collectors and Users: An Iterative Auction Mechanism", IEEE Trans. on Signal and Information Processing over Networks, special issue on distributed information processing in social networks, vol 3, no 2, pp.268-281, June 2017.'
+- 'C.Y. Wang, Yan Chen, and K.J.R. Liu, "Hidden Chinese Restaurant Game: Grand Information Extraction for Stochastic Network Learning", IEEE Trans. on Signal and Information Processing over Networks, special issue on distributed information processing in social networks, vol 3, no 2, pp.330-345, June 2017.'
+- Yanxiang Jiang, Ningning Lu, Yan Chen, Fuchun Zheng, Mehdi Bennis, Xiqi Gao, Xiaohu You, “Energy-Efficient Noncooperative Power Control in Small-Cell Networks,” IEEE Trans. Vehicular Technology, vol. 66, no. 8, pp. 7540-7547, Aug. 2017
+- W. Li, M.L. Ku, Yan Chen, K.J.R. Liu, and S.H. Zhu, "Performance Analysis for Two-Way Network-Coded Dual-Relay Networks with Stochastic Energy Harvesting", IEEE Trans. on Wireless Communications, vol. 16, no. 9, pp. 5747-5761, Sept. 2017. 
+- Biling Zhang, Yan Chen, Jung-Lang Yu, Bin Chen, Zhu Han, “Indirect-Reciprocity Data Fusion Game and Application to Cooperative Spectrum Sensing,” IEEE Trans. Wireless Communications, vol. 16, no. 10, pp. 6571-6585, Oct. 2017
+- H. Ma, B.B. Wang, Yan Chen, and K.J.R. Liu, "Waveforming Optimization for Time-Reversal Cloud Radio Access Networks", IEEE Trans. on Communications, vol 66, no 1, pp.382 - 393, Jan 2018.
+- 'Zheng Chang, Yang Hu, Yan Chen, Bing Zeng, "Cluster-Oriented Device-to-Device Multimedia Communications: Joint Power, Bandwidth and Link Selection Optimization", IEEE Transactions on Vehicular Technology, vol. 67, no. 2, pp. 1570-1581, Feb. 2018.'
+- 'C. Chen, B.B. Wang, Y. Han, Yan Chen, F. Zhang, H.Q. Lai, and K.J.R. Liu, "TR-BREATH: Time-Reversal Breathing Rate Estimation and Detection", IEEE Trans. on Biomedical Engineering, vol 65, no 3, pp.489 - 501, March 2018.'
+- Chengrun Qiu, Yang Hu, and Yan Chen, "Lyapunov Optimized Cooperative Communications with Stochastic Energy Harvesting Relay", IEEE Internet of Things Journal, vol. 5, no. 2, pp. 1323-1333, April 2018.
+- C. Chen, Yan Chen, H.Q. Lai, and K.J.R. Liu, "High Resolution Carrier Frequency Offset Estimation in Time-Reversal Wideband Communications", IEEE Trans. on Communications, vol 66, no 5, pp.2191 - 2205, May 2018.
+- 'Chih-Yu Wang, Yan Chen, and K. J. Ray Liu, "Game-Theoretic Cross Social Media Analytic: How Yelp Ratings Affect Deal Selection on Groupon?", IEEE Trans. Knowledge and Data Engineering, vol 30, no 5, pp.908 - 921, May 2018.'
+- Chengrun Qiu, Yang Hu, and Yan Chen, Bing Zeng, "Lyapunov Optimization for Energy Harvesting Wireless Sensor Communications", IEEE Internet of Things Journal, vol. 5, no. 3, pp. 1947-1956, June 2018
+- 'Chaofan He, Huiying Wang, Yang Hu, Yan Chen, Xiaopeng Fan, Houqiang Li, Bing Zeng, "MCast: High-Quality Linear Video Transmission with Time and Frequency Diversities", IEEE Transactions on Image Processing, vol. 27, no. 7, pp. 3599-3610, July 2018.'
+- Dongheng Zhang, Ying He, Xinyu Gong, Yang Hu, Yan Chen, and Bing Zeng, “Multitarget AOA Estimation Using Wideband LFMCW Signal and Two Receiver Antennas”, IEEE Transactions on Vehicular Technology, vol. 67, no. 8, pp. 7101-7112, August 2018.
+- Yang Hu, Chengrun Qiu, and Yan Chen, “Lyapunov Optimized Two-Way Relay Networks with Stochastic Energy Harvesting”, IEEE Trans. Wireless Communications，vol. 17, no. 9, pp. 6280-6292, Sept 2018
+- C.X. Jiang, Yan Chen, Q. Wang, and K.J.R. Liu, "Data-Driven Auction Mechanism Design in IaaS Cloud Computing", IEEE Transactions on Services Computing, special issue of Cloud Services Meet Big Data, vol. 11, no. 5, pp. 743-756, Sept. 2018.
+- 'Yang Hu, Xuerui Li, Yan Chen, Bing Zeng, Multi-Principal Multi-Agent Contract Design: Theory and Application to Device-to-Device Communications, IEEE Transactions on Vehicular Technology, vol. 68, no. 3, pp. 2535-2544, March 2019'
+- 'L. Xu, Chunxiao Jiang, Yan Chen, Y. Ren and K. J. R. Liu, “User Participation in Collaborative Filtering Based Recommendation Systems: A Game Theoretic Approach”, IEEE Transactions on Cybernetics, vol. 49, no. 4, pp. 1339-1352, April 2019'
+- 'Dongheng Zhang, Yang Hu, Yan Chen, Bing Zeng, BreathTrack: Tracking Indoor Human Breath Status via Commodity WiFi, IEEE Internet of Things Journal, vol. 6, no. 2, pp. 3899-3911, April 2019.'
+- Nuo Li, Yang Hu, Yan Chen, and Bing Zeng, “Lyapunov Optimized Resource Management for Multiuser Mobile Video Streaming”, IEEE Transactions on Circuits and Systems for Video Technology (CSVT), vol. 29, no. 6, pp. 1795-1805, June 2019
+- Chaofan He, Yang Hu, Yan Chen, Bing Zeng, Joint Power Allocation and Channel Assignment for NOMA with Deep Reinforcement Learning, IEEE Journal on Selected Areas in Communications, vol. 37, no. 10, pp. 2200-2210, Oct. 2019
+- Chengrun Qiu, Yang Hu, Yan Chen, Bing Zeng, Deep Deterministic Policy Gradient (DDPG) based Energy Harvesting Wireless Communications, IEEE Internet of Things Journal, vol. 6, no. 5, pp. 8577-8588, Oct. 2019
+- Wei Li, Meng-Lin Ku, Yan Chen, Yichen Wang, and Zhonghua Liang, Transmission Policy of Two-Way Relay Networks With Multiple Stochastic Energy Harvesting Nodes, IEEE ACESS, vol. 7, no.1, pp. 76967-76984, Dec. 2019
+- 'Yan Chen, Xuanyu Cao, K. J. Ray Liu, Community Detection in Networks: A Game-Theoretic Framework, EURASIP Journal on Advances in Signal Processing (2019) 2019: 60'
+- Dongheng Zhang, Yang Hu, Yan Chen, Bing Zeng, Calibrating Phase Offsets for Commodity WiFi, IEEE Systems Journal, vol. 14, no.1, pp. 661-664, March 2020
+- 'Chaofan He, Yang Hu, Yan Chen, Xiaopeng Fan, Houqiang Li, Bing Zeng, MUcast: Linear Uncoded Multiuser Video Streaming with Channel Assignment and Power Allocation Optimization, IEEE Transactions on Circuits and Systems for Video Technology (CSVT), vol.30, no.4, pp.1136-1146, April 2020'
+- Yan Chen, Hangjing Zhang, Yang Hu, Optimal Power and Bandwidth Allocation for Multiuser Video Streaming in UAV Relay Networks, IEEE Transactions on Vehicular Technology, vol. 69, no. 6, pp. 6644-6655, June 2020
+- 'Ying He, Yan Chen, Yang Hu, and Bing Zeng, WiFi Vision: Sensing, Recognition, and Detection With Commodity MIMO-OFDM WiFi, IEEE Internet of Things Journal, vol. 7, no. 9, pp. 8296-8317, Sept 2020'
+- Yan Chen, Xiang Su, Yang Hu, Bing Zeng, Residual Carrier Frequency Offset Estimation and Compensation for Commodity WiFi, IEEE Transactions on Mobile Computing, vol. 19, no. 12, pp. 2891-2902, Dec. 2020
+- 'Yan Chen, Hongyu Deng, Dongheng Zhang, Yang Hu, SpeedNet: Indoor Speed Estimation with Radio Signals, IEEE Internet of Things Journal, vol. 8, no. 4, pp. 2762-2774, Feb. 2021'
+- 'Dongheng Zhang, Yang Hu, Yan Chen, MTrack: Tracking Multi-Person Moving Trajectories and Vital Signs with Radio Signals, IEEE Internet of Things Journal, vol. 8, no. 5, pp. 3904-3914, March 2021'
+- Hangjing Zhang, Yuejiang Li, Yan Chen, H. Vicky Zhao, Smart Evolution for Information Diffusion Over Social Networks, IEEE Transactions on Information Forensics and Security, vol.16, pp. 1203-1217, 2021
+- Shan Wen, Guanghui Liu, Chengxiang Liu, Huiyang Qu, Miao Tian, Yan Chen, Waveform Design for High-Order QAM Faster-Than-Nyquist Transmission in the Presence of Phase Noise, to appear in IEEE Transactions on Wireless Communications
+  
+book:
+- name: "Yan Chen, Hong Vicky Zhao, Behavior and Evolutionary Dynamics in Crowd Networks: An Evolutionary Game Approach, (132 pages), Springer, 2020"
+  cover: cover2.png
+- name: Yan Chen, C.Y. Wang, C.X. Jiang, and K.J.R. Liu, Reciprocity, Evolution, and Decision Games in Network and Data Science, (460 pages), Cambridge University Press, 2021
+  cover: cover1.jpg
+
+patent:
+
+
+
+- Oscar C. Au and Yan Chen, ``Rate Distortion Optimization for Video Denoising", US Full Patent Application (12/132769), filed June 4, 2008 (licensed on July 13 2010)
+- Oscar C. Au and Yan Chen, "Rate Distortion Optimized Intermode Decision for H.264 Error resilient Video Coding", US Full Patent Application (11/853498), filed Sept. 11, 2007 (licensed on July 13 2010)
+- Oscar C. Au and Yan Chen, ``Spatio-Temporal Boundary Matching Algorithm for Temporal Error Concealment", US Full Patent Application (11/750144), filed May 17, 2007 (licensed on July 13 2010)
+- Feng Han, K. J. Ray Liu, Yan Chen, “Time-Reversal Wireless System Having Asymmetric Architecture”, PCT Patent Application WO2015023895A1, filed Aug. 14, 2014.
+- Yan Chen, Hung-Quoc Duc Lai, Yi Han, Chen Chen, Zhung-Han Wu, K. J. Ray Liu, Katherine L. Hall, “Wireless Positioning Systems”, PCT Patent Application WO2016011433A2, filed July 17, 2015.
+- Oscar C. Au and Yan Chen, ``Rate Control and Video Denoising for Noisy Video Data", US Full Patent (US 8982947 B2), granted March 17, 2015
+- Yan Chen, Hang Ma, Yi Han, Hung-Quoc Duc Lai, K. J. Ray Liu, “Time-Reversal Wireless Paradigm for Internet of Things”, U.S. Patent No. 9226304, filed March 10, 2014, granted Dec. 29, 2015.
+- Yu-Han Yang, Yan Chen, K. J. Ray Liu, “Quadrature Amplitude Modulation for Time-Reversal Systems”, U.S. Patent No. 9407306, filed April 25, 2014, granted Aug. 2, 2016.
+- Hang M, Yi Han, Yan Chen, Zoltan Safar, Feng Han, K. J. Ray Liu, “Handshaking Protocol for Time-Reversal System”, U.S. Patent No. 9313020, filed Feb. 19, 2014, granted Apr. 12, 2016.
+- Feng Han, K. J. Ray Liu, Yan Chen, “Time-Reversal Wireless System Having Asymmetric Architecture”, Europe Patent Application 14756197.1, filed Feb. 15, 2016.
+
+- Yi Han, Yu-Han Yang, Yan Chen, K. J. Ray Liu, Hang Ma, Beibei Wang, Hung-Quoc Duc Lai, Zoltan Safar, Qinyi Xu, Chen Chen, “Time Reversal Communication Systems”, U.S. Patent Application No. 15/284,496, filed Oct. 3, 2016, allowed.
+- Yan Chen, Hang Ma, Yi Han, Hung-Quoc Duc Lai, K. J. Ray Liu, “Time-Reversal Wireless Paradigm for Internet of Things”, U.S. Patent No. 9402245, filed Nov. 17, 2015, granted Jul. 26, 2016.
+- Yan Chen, Hung-Quoc Duc Lai, Yi Han, Chen Chen, Zhung-Han Wu, K. J. Ray Liu, “Wireless Positioning Systems”, U.S. Patent Application No. 15/326,112, Publication No. 20170212210A1, filed Jan. 13, 2017.
+- Meng-Lin Ku, Yi Han, Hung-Quoc Duc Lai, Yan Chen, Beibei Wang, K. J. Ray Liu, “Method, System, and Apparatus for Wireless Power Transmission based on Power Waveforming”, U.S. Patent Application No. 15/584,052, filed May 2, 2017.
+- Qinyi Xu, Yan Chen, Beibei Wang, K. J. Ray Liu, “Methods, Apparatus, Servers, and Systems for Human Identification based on Human Radio Biometric Information”, PCT Patent Application No. PCT/US2017/021957, filed Mar. 10, 2017.
+- Chen Chen, Beibei Wang, Yi Han, Feng Zhang, Hung-Quoc Duc Lai, Yan Chen, K. J. Ray Liu, “Methods, Apparatus, Servers, and Systems for Vital Signs Detection and Monitoring”, PCT Patent Application No. PCT/US2017/021963, filed Mar. 10, 2017.
+- Yan Chen, Hung-Quoc Duc Lai, Yi Han, Chen Chen, Zhung-Han Wu, K. J. Ray Liu, “Wireless Positioning Systems”, Europe Patent Application No. 15821676.2, filed Jan. 17, 2017.
+- Yan Chen, Hung-Quoc Duc Lai, Yi Han, Chen Chen, Zhung-Han Wu, K. J. Ray Liu, “Wireless Positioning Systems”, Japan Patent Application No. 2017-523197, filed Jan. 16, 2017.
+- Yan Chen, Hang Ma, Yi Han, Hung-Quoc Duc Lai, K. J. Ray Liu, “Time-Reversal Wireless Paradigm for Internet of Things”, U.S. Patent No. 9781700, filed Jul. 1, 2016, granted Oct. 3, 2017.
+- Hang Ma, Yi Han, Yan Chen, Zoltan Safar, Feng Han, K. J. Ray Liu, “Handshaking Protocol for Time-Reversal System”, U.S. Patent No. 9825838, filed Feb. 11, 2016, granted Nov. 21, 2017.
+- Hang Ma, Yi Han, Yan Chen, Zoltan Safar, Feng Han, K. J. Ray Liu, “Handshaking Protocol for Time-Reversal System”, U.S. Patent No. 9794156, filed Feb. 11, 2016, granted Oct. 17, 2017.
+- Yu-Han Yang, Yan Chen, K. J. Ray Liu, “Quadrature Amplitude Modulation for Time-Reversal Systems”, U.S. Patent No. 9736002, filed Jul. 1, 2016, granted Oct. 31, 2017.
+- Chen Chen, Beibei Wang, Yi Han, Feng Zhang, Hung-Quoc Duc Lai, Yan Chen, K. J. Ray Liu, “Methods, Apparatus, Servers, and Systems for Vital Signs Detection and Monitoring”, Japan Patent Application No. 2018-547988, filed Sep. 10, 2018. 
+- Qinyi Xu, Yan Chen, Beibei Wang, K. J. Ray Liu, “Methods, Apparatus, Servers, and Systems for Human Identification based on Human Radio Biometric Information”, Japan Patent Application No. 2018-547884, filed Sep. 10, 2018.
+- Qinyi Xu, Yan Chen, Beibei Wang, K. J. Ray Liu, “Methods, Apparatus, Servers, and Systems for Human Identification based on Human Radio Biometric Information”, Europe Patent Application No. 17764252.7, filed Sep. 7, 2018.
+- Chen Chen, Beibei Wang, Yi Han, Feng Zhang, Hung-Quoc Duc Lai, Yan Chen, K. J. Ray Liu, “Methods, Apparatus, Servers, and Systems for Vital Signs Detection and Monitoring”, Europe Patent Application No. 17764257.6, filed Sep. 6, 2018. 
+- Yi Han, Yan Chen, Beibei Wang, K. J. Ray Liu, “Methods, Devices and Systems of Heterogeneous Time-Reversal Paradigm Enabling Direct Connectivity in Internet of Things”, U.S. Patent No. 9887864, filed Sep. 16, 2016, granted Feb. 6, 2018.
+- Feng Han, K. J. Ray Liu, Yan Chen, “Time-Reversal Wireless System Having Asymmetric Architecture”, U.S. Patent No. 9900794, filed Feb. 16, 2016, granted Feb. 20, 2018.
+- Yan Chen, Hang Ma, Yi Han, Hung-Quoc Duc Lai, K. J. Ray Liu, “Time-Reversal Technologies for Hybrid Wireless Networks”, U.S. Patent No. 10009148, filed Jan. 22, 2016, granted Jun. 26, 2018.
+- Yan Chen, Hang Ma, Yi Han, Hung-Quoc Duc Lai, K. J. Ray Liu, “Time-Reversal Technologies for Hybrid Wireless Networks”, U.S. Patent No. 10014982, filed Jan. 22, 2016, granted Jul. 3, 2018.
+- Qinyi Xu, Yan Chen, Beibei Wang, K. J. Ray Liu, “Methods, Apparatus, Servers, and Systems for Human Identification based on Human Radio Biometric Information”, U.S. Patent No. 10,476,730, filed Sep. 10, 2018, granted Nov. 12, 2019
+- Yan Chen, Zhung-Han Wu, Yi Han, K. J. Ray Liu, “Wireless Signals and Techniques for Determining Locations of Objects in Multi-path Environments”, U.S. Patent No. 10168414, filed Jan. 26, 2015, granted Jan. 1, 2019.
+- Hang Ma, Yan Chen, Feng Han, Zhung-Han Wu, Zoltan Safar, K. J. Ray Liu, “Time-Reversal Scalability for High Network Densification”, U.S. Patent No. 10,609,711, filed Mar. 4, 2016, granted March 31, 2020
+- 陈彦，邱成润，张冬，孙启彬，吴曼青；利用无线定位辅助目标检测的方法和装置，2021-06-17，中国发明专利，202011200320.3
+- 胡洋，邱成润，陈彦；一种用于能量可收集双向协作通信的中断率优化方法，2020-10-23, 中国发明专利，201810257834.9
+- 陈彦，邱成润，胡洋；一种基于DDPG的能量可收集通信的比特率优化方法，2020-11-17，中国发明专利，201811305167.3
+- 陈彦，张东恒，何莹；一种宽带线性调频信号的波达方向估计方法，2020-3-27, 中国发明专利，201710520036.6
+- 陈彦，张东恒，胡洋，曾兵; 一种基于信道状态信息的人体呼吸追踪方法, 2021-1-13, 中国发明专利, 201811002099.3.
+- Chen Chen, Beibei Wang, Yi Han, Feng Zhang, Hung-Quoc Duc Lai, Yan Chen, K. J. Ray Liu, “Methods, Apparatus, Servers, and Systems for Vital Signs Detection and Monitoring”, U.S. Patent No. 11,012,285, filed Sep. 10, 2018, granted May 18, 2021
+- 陈彦，张东恒，胡洋，曾兵；一种WiFi芯片相位偏移矫正方法，2021-04-30，中国发明专利，201911202798.2
+
+  
+
+
+
+  
+conference:
+- Yang Hu, Yan Chen, Houqiang Li, Chang Wen Chen, ``An Improved Spatio-Temporal Video Error Concealment Algorithm Using Partial Differential Equation", Proc. SPIE Multimedia Systems and Applications VIII, 2005
+- Yan Chen, Xiaoyan Sun, Feng Wu, Zhengkai Liu, ``Spatio-Temporal Video Error Concealment Using Priority-Ranked Region-Matching", Proc. IEEE Int. Conf. Image Processing (ICIP), 2005
+- Xiaopeng Fan, Oscar C. Au, Yan Chen, Jiantao Zhou, ``Heegard-Berger Video Coding Using LMMSE Estimator", Pacific-RIM Conference on Multimedia (PCM), 2006
+- Carman Yuk, Oscar C. Au, Richard Li, S.Y. Lam, Yan Chen, ``Color Demosaicking using Direction-Consistent Estimation", Proc. IEEE Int. Symposium on Intelligent Signal Processing and Communication Systems (ISPACS), 2006
+- Yan Chen, Oscar C. Au, Jiantao Zhou, Xiaopeng Fan, Liwei Guo, ``Decoder-Embedded Temporal Interpolation Using Least Square Optimal Filter (LSOF)", Proc. IEEE Int. Symposium on Intelligent Signal Processing and Communication Systems (ISPACS), 2006
+- Yan Chen, Oscar C. Au, Jiantao Zhou, Hoiming Wong, Chi-Wang Ho, ``Priority-Driven Extended Boundary Matching Algorithm for Temporal Error Concealment", Picture Coding Symposium (PCS), 2006
+- Jiantao Zhou, Zhiqin Liang, Yan Chen, Oscar C. Au, ``On the Security of Multimedia Encryption Schemes Based On Multiple Huffman Table (MHT)", Proc. IEEE Int. Conf. Multimedia and Expo (ICME), 2006
+- Yan Chen, Oscar C. Au, Jiantao Zhou, Chi-Wang Ho, ``Adaptively Switching Between Directional Interpolation And Region Matching For Spatial Error Concealment Based On DCT Coefficients", Proc. IEEE Int. Conf. Multimedia and Expo (ICME), 2006
+- Yan Chen, Qing Luan, Houqiang Li, Oscar C. Au, ``Sketch-guided Texture Based Image Inpainting", Proc. IEEE Int. Conf. Image Processing (ICIP), 2006
+- Yan Chen, Oscar C. Au, Chi-Wang Ho, Jiantao Zhou, ``Spatio-Temporal Boundary Matching Algorithm For Temporal Error Concealment", Proc. IEEE Int. Symposium Circuits and Systems (ISCAS), 2006
+- Mengyao Ma, Oscar C. Au, Liwei Guo, Yan Chen, S.H. Gary Chan, ``Error Concealment by Region-Filling for INTRA-frame Losses", Picture Coding Symposium (PCS), 2007
+- Yan Chen, Oscar C. Au, Xiaopeng Fan, Liwei Guo, Peter H.W. Wong, ``Maximum A Posteriori Based (MAP-Based) Video Denoising Via Rate Distortion Optimization'', Proc. IEEE Int. Conf. Multimedia and Expo (ICME), 2007
+- Xiaopeng Fan, Oscar C. Au, Yan Chen, Jiantao Zhou, Peter H.W. Wong, ``Wyner-Ziv Successive Refinement of Video and Rate Distortion Analysis'', Proc. IEEE Int. Conf. Multimedia and Expo (ICME), 2007
+- Xiaopeng Fan, Oscar C. Au, Yan Chen, Jiantao Zhou, Mengyao Ma, ``Reversible Wyner-Ziv Video Frame'', Proc. IEEE Int. Symposium Circuits and Systems (ISCAS), 2008
+- Yan Chen, Oscar C. Au, ``Simultaneous RD-Optimized Rate Control and Video Denoising", Proc. IEEE Int. Conf. Acoustics Speech and Signal Processing (ICASSP), 2008
+- Yan Chen, Beibei Wang, K. J. Ray Liu, ``A Game-Theoretic Framework For Multi-User Multimedia Rate Allocation", Proc. IEEE Int. Conf. Acoustics Speech and Signal Processing (ICASSP), 2009
+- Yan Chen, W. Sabrina Lin, K. J. Ray Liu, ``Risk-Distortion Analysis for Video Collusion Attack", Proc. IEEE Int. Conf. Acoustics Speech and Signal Processing (ICASSP), 2009
+- Yan Chen, Yongle Wu, Beibei Wang, and K. J. Ray Liu, ``An Auction-Based Framework for Multimedia Streaming Over Cognitive Radio Networks", Proc. IEEE Int. Conf. Acoustics Speech and Signal Processing (ICASSP), 2010
+- Yan Chen, Beibei Wang, W. Sabrina Lin, Yongle Wu, K. J. Ray Liu, ``Evolutionary Games for Cooperative P2P Video Streaming", Proc. IEEE Int'l Conf. on Image Processing (ICIP), Hong Kong, September 2010
+- Yan Chen, K. J. Ray Liu, ``A Game Theoretical Approach for Image Denoising", Proc. IEEE Int'l Conf. on Image Processing (ICIP), Hong Kong, Sep 2010
+- Yan Chen, K. J. Ray Liu, ``Cooperation Stimulation in Cognitive Networks Using Indirect Reciprocity Game Modelling", IEEE GLOBECOM 2010
+- H.Q. Lai, Yan Chen, and K.J.R. Liu, ``Coalition Formation Games for Energy Efficient Wireless Network COCAST", IEEE MILCOM, Nov 2011
+- Yan Chen, Yang Gao, K. J. Ray Liu, ``An Evolutionary Game-Theoretic Approach for Image Interpolation", Proc. IEEE Int'l Conf. Acoustic, Speech, and Signal Processing (ICASSP), Prague, Czech Republic, May 2011
+- Yang Gao, Yan Chen, K. J. Ray Liu, ``A Cheat-Proof Game-Theoretic Framework for Cooperative Peer-to-Peer Video Streaming", Proc. IEEE Int'l Conf. Acoustic, Speech, and Signal Processing (ICASSP), Kyoto, March 2012
+- Feng Han, Zoltan Safar, W. Sabrina Lin, Yan Chen, K. J. Ray Liu, ``Energy-Efficient Cellular Network Operation via Base Station Cooperation", Proc. IEEE International Conference on Communications (ICC), Ottawa, June 2012
+- Liang Xiao, W. Sabrina Lin, Yan Chen, K. J. Ray Liu, ``Indirect Reciprocity Game Modelling for Secure Wireless Networks", Proc. IEEE International Conference on Communications (ICC), Ottawa, June 2012
+- Chunxiao Jiang, Yan Chen, K. J. Ray Liu, Yong Ren, ``Analysis of Interference in Cognitive Radio Networks with Unknown Primary Behavior", Proc. IEEE International Conference on Communications (ICC), Ottawa, June 2012
+- Biling Zhang, Yan Chen, K. J. Ray Liu, ``An Indirect Reciprocity Game Theoretic Framework for Dynamic Spectrum Access", Proc. IEEE International Conference on Communications (ICC), Ottawa, June 2012
+- 'Yang Gao, Yan Chen, K. J. Ray Liu, ``Cooperation Stimulation in Cooperative Communications: An Indirect Reciprocity Game", Proc. IEEE International Conference on Communications (ICC), Ottawa, June 2012'
+- Yan Chen, W. Sabrina Lin, Feng Han, Yu-Han Yang, Zoltan Safar, K. J. Ray Liu, ``A Cheat-Proof Game Theoretic Demand Response Scheme for Smart Grids", Proc. IEEE International Conference on Communications (ICC), Ottawa, June 2012
+- Yang Gao, Yan Chen, Chih-Yu Wang, and K. J. Ray Liu, "Optimal Contract Design for Ancillary Services in Vehicle-to-Grid Networks," IEEE SmartGridComm 2012, Tainan, Taiwan, Nov. 2012
+- Hang Ma, Yu-Han Yang, Yan Chen, and K. J. Ray Liu, ``Distributed State Estimation in Smart Grid with Communication Constraints," APSIPA Annual Summit \& Conference 2012, Hollywood, California, Dec. 2012
+- Yi Han, Yan Chen, Feng Han and K. J. Ray Liu, ``An Optimal Dynamic Pricing and Schedule Approach in V2G," APSIPA Annual Summit \& Conference 2012, Hollywood, California, Dec. 2012
+- Biling Zhang, Yan Chen, Chih-Yu Wang, and K.J.R. Liu, "Learning and Decision Making with Negative Externality for Opportunistic Spectrum Access", Proc. IEEE Globecom, Anaheim, Dec 2012
+- Chunxiao Jiang, Yan Chen, and K.J.R. Liu, "A Renewal-Theoretical Framework for Dynamic Spectrum Access with Unknown Primary Behavior", Proc. IEEE Globecom, Anaheim, Dec 2012
+- Xiaoyu Chu, Matthew C. Stamm, Yan Chen, and K. J. Ray Liu, "Concealability-Rate-Distortion Tradeoff in Image Compression Anti-Forensics", Proc. IEEE Int'l Conf. Acoustic, Speech, and Signal Processing (ICASSP), Vancouver, May 2013
+- Chih-Yu Wang, Yan Chen, Hung-Yu Wei, and K. J. Ray Liu, ``Optimal Pricing in Stochastic Scalable Video Coding Multicasting System," INFOCOM 2013 Mini-Conference
+- 'Yang Gao, Yan Chen, Chih-Yu Wang, and K. J. Ray Liu, ``A Contract-Based Approach for Ancillary Services in V2G Networks: Optimality and Learning," INFOCOM 2013 '
+- Chunxiao Jiang, Yan Chen, Yu-Han Yang, Chih-Yu Wang, and K. J. Ray Liu, ``Dynamic Chinese Restaurant Game in Cognitive Radio Networks," INFOCOM 2013 
+- Hang Ma, Yu-Han Yang, Qi Wang, Yan Chen, and K. J. Ray Liu, "Distributed State Estimation with Lossy Measurement Compression in Smart Grid", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2013
+- Chunxiao Jiang, Yan Chen, Yang Gao, and K. J. Ray Liu, "Indian Buffet Game with Non-Bayesian Social Learning", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2013
+- Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, "Diffusion analysis of distributed adaptive filtering networks with regular graph", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2013
+- Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, "Graphical evolutionary game theoretical framework for distributed adaptive filtering networks", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2013
+- Tong Zhou, Yan Chen, and K. J. Ray Liu, "MIMO Interference Cancelation via Network Formation Game", Proc. IEEE Globecom, Atlanta, Dec. 2013
+- Chunxiao Jiang, Yan Chen, Yang Gao, and K. J. Ray Liu, "Evolutionary Game for Joint Spectrum Sensing and Access in Cognitive Radio Networks", Proc. IEEE Globecom, Atlanta, Dec. 2013. (Best Paper Award)
+- Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, "Inter-User Interference in Molecular Communication Networks", Proc. IEEE Int'l Conf. Acoustic, Speech, and Signal Processing (ICASSP), Florence, May 2014
+- Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, "Modeling Information Diffusion Dynamics over Social Networks", Proc. IEEE Int'l Conf. Acoustic, Speech, and Signal Processing (ICASSP), Florence, May 2014
+- Xiaoyu Chu, Yan Chen, and K. J. Ray Liu, "Information Theoretical Limit of Compression Forensics", Proc. IEEE Int'l Conf. Acoustic, Speech, and Signal Processing (ICASSP), Florence, May 2014
+- Liang Xiao, Yan Chen, and K. J. Ray Liu, "Anti-Cheating Prosumer Energy Exchange based on Indirect Reciprocity", Proc. IEEE International Conference on Communications (ICC), Sydney, June 2014
+- Tong Zhou, Yan Chen, Chunxiao Jiang, and K. J. Ray Liu, ``Femto-macro Co-channel Interference Coordination via Pricing Game", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2014 
+- Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, ``Sequential Multi-Channel Access Game in Distributed Cognitive Radio Networks", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2014
+- Wei Li, Meng-lin Ku, Yan Chen, and K. J. Ray Liu, ``On the Achievable Sum Rate for Two-Way Relay Networks with Stochastic Energy Harvesting", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2014
+- 'Yi Han, Yan Chen, and K. J. Ray Liu, ``Time-Reversal with Limited Signature Precision: Tradeoff Between Complexity and Performance", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2014'
+- Yan Chen, Yang Gao, Chunxiao Jiang, and K. J. Ray Liu, ``Game Theoretic Markov Decision Processes for Optimal Decision Making in Social Systems", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2014
+- 'Xuanyu Cao, Yan Chen, Chunxiao Jiang, and K. J. Ray Liu, ``Information Diffusion over Heterogeneous Social Networks: An Evolutionary Game Perspective", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2014'
+- Lei Xu, Chunxiao Jiang, Yan Chen, Yong Ren, and K. J. Ray Liu, ``User Participation Game in Collaborative Filtering", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2014
+- Xuanyu Cao, Yan Chen, and K. J. Ray Liu, ``Spectrum Trading in Heterogeneous Cognitive Radio Networks", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2014
+- Meng-lin Ku, Yan Chen, and K. J. Ray Liu, ``Data-Driven Stochastic Scheduling for Solar-Powered Sensor Communications", Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2014
+- 'Chunxiao Jiang, Yan Chen, K. J. Ray Liu, and Yong Ren, ``Cognitive Femtocell Market: How to Price?", Proc. IEEE Globecom, Austin, Dec. 2014'
+- Chunxiao Jiang, Yan Chen, and K. J. Ray Liu, ``Evolutionary Social Information Diffusion Analysis", Proc. IEEE Globecom, Austin, Dec. 2014
+- Q.Y. Xu, Yan Chen, and K.J.R. Liu, ``Joint power control and signature design for time-reversal uplinks", IEEE China Summit and International Conference on Signal and Information Processing (ChinaSIP), Chengdu, July, 2015.
+- H. Lu, Y.C. Wang, Yan Chen, and K.J.R. Liu, ``Interference Model and Analysis on Device-to-Device Cellular Coexist Networks", Proc. IEEE Global Conference on Signal and Information Processing (GlobalSIP), Orlando, Dec 2015.
+- Q.Y. Xu, Yan Chen, and K.J.R. Liu, ``Optimal Pricing for Interference Control in Time-reversal Device-to-Device Uplinks", Proc. IEEE Global Conference on Signal and Information Processing (GlobalSIP), Orlando, Dec 2015.
+- C. Chen, Yan Chen, H.Q. Lai, and K.J.R. Liu, ``Accurate Carrier Frequency Offset Estimation in Time-Reversal Communications", Proc. IEEE Global Conference on Signal and Information Processing (GlobalSIP), Orlando, Dec 2015.
+- W. Li, M.L. Ku, Yan Chen, and K.J.R. Liu, ``Diversity Analysis for Two-Way Multi-Relay Networks with Stochastic Energy Harvesting", Proc. IEEE Global Conference on Signal and Information Processing (GlobalSIP), Orlando, Dec 2015.
+- W. Li, M.L. Ku, Yan Chen, and K.J.R. Liu, ``Outage Probability for Two-Way Solar-Powered Relay Networks with Stochastic Scheduling", Proc. IEEE Global Conference on Signal and Information Processing (GlobalSIP), Orlando, Dec 2015.
+- X.Y. Chu, Yan Chen, and K.J.R. Liu, 'An Information Theoretic Framework for Order Of Operations Forensics', Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Shanghai, March 2016
+- X.Y. Cao, Yan Chen, and K.J.R. Liu, "Community Detection Game", Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Shanghai, March 2016.
+- 'C. Chen, Yan Chen, H.Q. Lai, Y. Han, and K.J.R. Liu, "High Accuracy Indoor Localization: A WiFi-Based Approach", Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), Shanghai, March 2016. (Best Student Paper Award)'
+- Xuanyu Cao, Yan Chen, K.J. Ray Liu, A GAME-THEORETIC MODELING OF POPULARITY DYNAMICS, Proc. IEEE Global Conference on Signal and Information Processing (GlobalSIP), Dec 2016
+- Chen Chen, Yi Han, Yan Chen, K.J. Ray Liu, Multi-Person Breathing Rate Estimation using Time-Reversal on WiFi Platforms, Proc. IEEE Global Conference on Signal and Information Processing (GlobalSIP), Dec 2016
+- Chen Chen, Yi Han, Yan Chen, Feng Zhang, K.J. Ray Liu, Time-Reversal Indoor Positioning with Centimeter Accuracy using Multi-Antenna WiFi, Proc. IEEE Global Conference on Signal and Information Processing (GlobalSIP), Dec 2016
+- Chen Chen, Yi Han, Yan Chen, K. J. Ray Liu, Indoor GPS with Centimeter Accuracy using WiFi, APSIPA ASC 2016
+- 'Yi Han, Yan Chen, Beibei Wang, K. J. Ray Liu, Realizing Massive MIMO Effect Using A Single Antenna: A Time-Reversal Approach, Proc. IEEE GLOBECOM 2016'
+- Hang Ma, Beibei Wang, Yan Chen, K. J. Ray Liu, Interference Alleviation for Time-Reversal Cloud Radio Access Network, Proc. IEEE GLOBECOM 2016
+- Xuanyu Cao, Yan Chen, K. J. Ray Liu, AN ITERATIVE AUCTION MECHANISM FOR DATA TRADING, Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2017
+- Qinyi Xu, Yan Chen, Beibei Wang, K. J. Ray Liu, TIME REVERSAL BASED WIRELESS EVENTS DETECTION, Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP) 2017
+- Bin Chen, Biling Zhang, Jung-Lang Yu, Yan Chen, Zhu Han, An indirect reciprocity based incentive framework for cooperative spectrum sensing,  Proc. IEEE International Conference on Communications (ICC) 2017
+- 'Chaofan He, Huiying Wang, Yang Hu, Yan Chen, Houqiang Li, Exploiting Time and Frequency Diversities for High-Quality Linear Video Transmission: A MCast Framework, PCM 2017 (Best Student Paper Award)'
+- Zheng Chang, Yang Hu, Yan Chen, Bing Zeng, Joint Power, Bandwidth and Link Selection Optimization for D2D Multimedia Communications, Proc. IEEE Global Conference on Signal and Information Processing (GLOBALSIP), 2017
+- 'Chih-Yu Wang, Yan Chen, K. J. Ray Liu, Game-Theoretic Cross Social Media Analytic: How Do Yelp Ratings Affect Deal Selection on Groupon? ICDE, 2018'
+- Dongheng Zhang, Yang Hu, Yan Chen, Breath Status Tracking Using Commodity WiFi, GLOBECOM, 2018
+- Wei Li, Meng-Lin Ku, Yan Chen, Zhonghua Liang, Outage Probability for Two-Way Relay Networks with Stochastic Energy Harvesting Source Nodes, GlobalSIP, 2018
+- Hangjing Zhang, Yang Hu, Yan Chen, Resource Allocation for Multiuser Video Streaming in UAV Relay Networks, WCSP, 2019
+- 'Y Li, B Qiu, Yan Chen, HV Zhao, Analysis of information diffusion with irrational users: A graphical evolutionary game approach, ICASSP, 2019'
+- 'Cong Yu, Yang Hu, Yan Chen, Bing Zeng, Personalized Fashion Design. ICCV 2019: 9045-9054'
+- Xiang Su, Yang Hu, Yan Chen, Bing Zeng, Estimating and Compensating Residual Carrier Frequency Offset for Commodity WiFi, ICC, 2019
+- Chaofan He, Yang Hu, Yan Chen, Xiaopeng Fan, Houqiang Li, Bing Zeng, Exploiting Channel Assignment and Power Allocation for Linear Uncoded Multiuser Video Streaming, ICC, 2019
+- Zhi Lu, Yang Hu, Yunchao Jiang, Yan Chen, Bing Zeng, Learning Binary Code for Personalized Fashion Recommendation, CVPR, 2019
+- Hangjing Zhang, Yuejiang Li, Yang Hu, Yan Chen, H. Vicky Zhao, Measuring the Hazard of Malicious Nodes in Information Diffusion over Social Networks, APSIPA ASC, 2019
+- 'H Hu, Y Li, Hong Vicky Zhao, Yan Chen, Modeling Multi-source Information Diffusion: A Graphical Evolutionary Game Approach, APSIPA ASC, 2019'
+- B Qiu, Y Li, Yan Chen, Hong Vicky Zhao, Controlling Information Diffusion with Irrational Users, APSIPA ASC, 2019
+- Q Ye, Y Li, Yan Chen, Hong Vicky Zhao, Modeling Content Interaction in Information Diffusion with Pre-trained Sentence Embedding, APSIPA ASC, 2019
+- Y Li, Y Li, H Hu, Hong Vicky Zhao, Yan Chen, Graphical evolutionary game theoretic analysis of super users in information diffusion, ICASSP, 2020
+- Hongyu Deng, Dongheng Zhang, Yang Hu, Yan Chen, Estimating Indoor Human Speed via Radio Signals, GLOBECOM, 2020
+- Ying He, Dongheng Zhang, Yang Hu, Yan Chen, Non-line-of-sight Imaging with Radio Signals, APSIPA ASC, 2020 
+- 'Yufei Tian, Hong Hu, Yuejiang Li, H. Vicky Zhao, Yan Chen, CAN-SIN: A Cross-Layer Heterogeneous Academic Network with Semantic Information, APSIPA ASC, 2020 (Best Paper Award)'
+- Dongheng Zhang, Xiong Li, Yan Chen, Pushing the Limit of Phase Offset for Contactless Sensing Using Commodity WiFi, ICASSP, 2021
+- Zhi Lu, Yang Hu, Yan Chen, Bing Zeng, Personalized Outfit Recommendation With Learnable Anchors, CVPR, 2021
+
+---

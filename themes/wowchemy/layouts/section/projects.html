@@ -1,0 +1,35 @@
+{{- define "main" -}}
+
+{{ partial "page_header.html" . }}
+
+<div class="universal-wrapper">
+  <div class="row">
+    {{ $paginator := .Paginate .Data.Pages }}
+    {{ range $paginator.Pages }}
+    {{$item := .}} 
+    {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+    {{ $image := $resource.Resize "500x400"}}
+    <div class="col-12">
+        
+        <h4 style="color:rgb(0,32,96)"><i class="fa  fas fa-tags  " style="color:rgb(0,32,96)"></i> {{.Params.title}}</h4>
+    </div>
+    
+    <div class="col-12 col-lg-4 ">
+        <a href="{{$resource.RelPermalink}}"><img src="{{$image.RelPermalink}} " class="img-responsive" ></a>
+        
+        
+    </div>
+    <div class="col-12 col-lg-8  ">
+        <p style="font-size:16px;">{{ .Content | markdownify | emojify }}</p>
+        
+    </div>
+    <div class="col-12">
+        <hr>
+    </div>
+        
+    {{end}}
+
+  </div>
+</div>
+
+{{- end -}}

@@ -72,7 +72,7 @@ Windows系统请执行以下步骤:
 ## 文件存放路径
 在本 GitHub 仓库中，所有个人资料均保存在 `content` 路径下面， 其中 `content\en` 存放英文版网页内容， `content\zh` 存放中文版网页内容。 因此为了保证在不同语言环境下网页的统一，每一次更新网站内容时请**务必**同时更新上述两个路径下的相应文件。
 ## 修改个人资料
-所有的普通个人资料均存放在 `content\语种\authors` 路径下，如果路径下没有以你名字命名的文件夹，请自行创建相应文件夹（如 `content\en\authors\ChunyangXie`)，英文版可以在本地项目根目录下通过以下命令创建：
+所有的普通个人资料均存放在 `content\语种\authors` 路径下，如果路径下没有以你名字命名的文件夹，请自行创建相应文件夹（如 `content\en\authors\ChunyangXie`)，英文版也可以在本地项目根目录下通过以下命令创建：
 
 ```
 hugo new --kind authors authors/语种/姓名
@@ -120,6 +120,7 @@ education:
 # Publications
 book:
 - Signal Processing
+
 
 service:
 - AE
@@ -186,7 +187,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
 中文版|英文版|
 --|:--:|
 教职工|Faculty|
-博士后|Postdocs|
 博士生|Ph.D. Students|
 硕士生|Master Students|
 本科生|Undergrad Students|
@@ -205,28 +205,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristiq
 
 同时需要注意，不同角色分组下的 `weight` **并不冲突**，因此可以放心使用上述规则，同一年份的权重分配原则上先到先得，也可以自行商量分配。
 
-
-
 文件最下面为个人介绍，请将中英文介绍分别填写至对应的文件中。
-## 修改项目信息
-项目资料存放在 `content\语种\project` 路径下，如果需要新建项目，请自行建立相应文件夹（如 `content\en\project\MTrack`)，英文版可以在本地项目根目录下通过以下命令创建：
 
-```
-hugo new --kind  --kind project project/项目名称
-```
+校友部分放在`content\语种\authors\alumni`文件夹下，如需新增请打开文件夹下 `_index.md` 文件，按已有模板进行增减，目前暂不支持展示校友的照片和详细信息。
+
+
+## 修改项目信息
+项目资料存放在 `content\语种\projects` 路径下，如果需要新建项目，请自行建立相应文件夹（如 `content\en\projects\MTrack`)。
 文件夹内应**至少** 包含 `index.md`, 即项目的页面资料，最好包含项目的特征图片，即 `featured.jpg/png`。
-`_index.md` 整体结构如下所示：
+`index.md` 整体结构如下所示：
 ```
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "MTrack: Tracking Multi-Person Moving
-Trajectories and Vital Signs with Radio Signals"
-summary: ""
-authors: [Dongheng Zhang]
-tags: [object track]
+title: "Digital Health"
+weight: 40
+summary: 
+authors: [Chunyang Xie]
+tags: [Pose]
 categories: []
-date: 2021-08-07T19:45:56+08:00
+date: 2021-08-07T19:30:35+08:00
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -234,28 +232,18 @@ external_link: ""
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 # Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: "framework"
+image: 
+  caption: ""
   focal_point: ""
   preview_only: false
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-links:
-- name: Follow
-  url: https://twitter.com
-  icon_pack: fab
-  icon: twitter
-
-social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:ChunyangXie@std.uestc.edu.cn'
-
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+# links:
+# - name: Follow
+#   url: https://twitter.com
+#   icon_pack: fab
+#   icon: twitter
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -265,107 +253,56 @@ url_video: ""
 slides: ""
 ---
 
-We propose a human sensing system with radio signals, MTrack, for in-home healthcare, which is capable of tracking the trajectories of moving persons and vital signs of static persons under the multi-person scenarios. To achieve this, we implement a multi-antenna wideband system that can provide high-resolution angle of arrival (AoA) and time of flight (ToF). A 2D beamformer is utilized to transform the raw radio signals into the AoA-ToF domain. To track the trajectories of moving persons, we leverage the movement of persons to cancel static multipaths and propose a path selection algorithm to estimate the locations of human and suppress the interferences from dynamic multipaths. To track the vital signs of static persons, we utilize the breath of static persons to eliminate static multipaths and propose a correlation-based algorithm to eliminate dynamic multipaths. Extensive experiments show that the proposed MTrack system is capable of tracking multiple moving persons with sub-decimeter level accuracy, and can estimate the breath and heartbeat rate of static persons with median accuracy of 99.8% and 98.46%, respectively.
+Advances in machine learning and contactless sensors have given rise to digital health. We focus on healthcare in the radio world, leveraging the advances in wireless technology in all aspects of healthcare. 
+<br>
+Our recent research aims to develop contactless healthcare monitoring schemes based on commercial radio systems to achieve physiological information monitoring and health-critical human behaviors sensing under clinical and in-home environments. 
+<br>
+**Physiological information monitoring:**  We not only precisely measure the respiration and heartbeat rate, but also look deeper into the human body, e.g., monitoring electrocardiogram and blood pressure contactlessly. The proposed hybrid pipeline of signal processing and deep learning framework first extracts human micro-activity measurements from RF signal and then predicts the ECG and blood pressure with an interpretable neural networks that incorporate domain knowledge of RF signal and physiological models.
+<br>
+**Health-critical human behaviors sensing:** Beyond the physiological information, we also exploit RF signal to sense health-critical human behaviors such as fall. Our RF-based fall detection system utilizes spatio-temporal convolutional neural networks to aggregate information across space and time and extract the corresponding complex spatio-temporal patterns. We address the main challenge in practice fall detection, including dealing with complex falls and fast non-fall movements, generalization to new environments and detecting falls in the presence of other motion. 
+
 ```
-其中`authors`项填写项目参与者的姓名，请保证与个人资料里的名字一致，这样可以建立项目与成员间的联系。`links` 和 `social` 类下请根据自身情况修改相关信息。
+其中参数部分仅 `title`、`weight` 为必填项，其他如无必要请保持默认即可。 
 
 文件最下方为项目介绍，将对应语种的介绍填写至文件中。
 ## 修改出版物信息
 
-发表的文章信息存放在 `content\语种\publication` 下面。每篇文章请存放在`姓名-文章关键字`文件夹下，如 `dongheng-MTrack`文件夹，英文版可以在本地项目根目录下通过以下命令创建：
-```
-hugo new --kind publication publication/语种/姓名-文章关键字
-```
-每个文件夹下建议包含三个文件：
-- `cite.bib`: 存放引用信息，可以通过重命名已有的bibtex文件得到，格式如下：
-```
-@article{9203899,
- author = {Zhang, Dongheng and Hu, Yang and Chen, Yan},
- doi = {10.1109/JIOT.2020.3025820},
- journal = {IEEE Internet of Things Journal},
- number = {5},
- pages = {3904-3914},
- title = {MTrack: Tracking Multiperson Moving Trajectories and Vital Signs With Radio Signals},
- volume = {8},
- year = {2021}
-}
-```
--`featured.jpg\png`: 文章的介绍图。
-
--`index.md`: 文章的具体信息，格式如下：
+发表的文章信息存放在 `content\语种\all-publications\allpub.md` 里面，格式如下：
 ```
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
+journal:
+- 'iantao Zhou, Zhiqin Liang, Yan Chen, Oscar C. Au, “Security Analysis of Multimedia Encryption Schemes Based on Multiple Huffman Table", IEEE Signal Processing Letters, vol. 14, no. 3, pp. 201-204, March 2007 '
+- 'Yan Chen, Yang Hu, Oscar C. Au, Houqiang Li, Chang Wen Chen, “Video Error Concealment Using Spatio-Temporal Boundary Matching and Partial Differential Equation", IEEE Transactions on Multimedia, vol. 10, no. 1, pp. 2-15, Jan. 2008 '
+- 'Yan Chen, Oscar C. Au, Xiaopeng Fan, “Simultaneous MAP-Based Video Denoising and Rate-Distortion Optimized Video Encoding", IEEE Transactions on Circuits and Systems for Video Technology (CSVT), vol. 19, no. 1, pp. 15-26, Jan. 2009 '
+- 'Xiaopeng Fan, Oscar C. Au, Yan Chen, Jiantao Zhou, Mengyao Ma and Peter H.W. Wong, “Wyner-ziv Based Bidirectionally Decodable Video Coding", Journal of Visual Communication and Image Representation (JVCI), Elsevier, 2009 '
 
-title: 'MTrack: Tracking Multiperson Moving Trajectories and Vital Signs With Radio
-  Signals'
-subtitle: ''
-summary: ''
-authors:
-- Dongheng Zhang
-- Yang Hu
-- Yan Chen
-tags: []
-categories: []
-date: '2021-01-01'
-lastmod: 2021-08-07T21:51:28+08:00
-featured: false
-draft: false
+book:
+- name: "Yan Chen, Hong Vicky Zhao, Behavior and Evolutionary Dynamics in Crowd Networks: An Evolutionary Game Approach, (132 pages), Springer, 2020"
+  cover: cover2.png
+- name: Yan Chen, C.Y. Wang, C.X. Jiang, and K.J.R. Liu, Reciprocity, Evolution, and Decision Games in Network and Data Science, (460 pages), Cambridge University Press, 2021
+  cover: cover1.jpg
 
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ''
-  focal_point: ''
-  preview_only: false
+patent:
+- 'Oscar C. Au and Yan Chen, ``Rate Distortion Optimization for Video Denoising", US Full Patent Application (12/132769), filed June 4, 2008 (licensed on July 13 2010)'
+- 'Oscar C. Au and Yan Chen, "Rate Distortion Optimized Intermode Decision for H.264 Error resilient Video Coding", US Full Patent Application (11/853498), filed Sept. 11, 2007 (licensed on July 13 2010)'
+- 'Oscar C. Au and Yan Chen, ``Spatio-Temporal Boundary Matching Algorithm for Temporal Error Concealment", US Full Patent Application (11/750144), filed May 17, 2007 (licensed on July 13 2010)'
+- 'Feng Han, K. J. Ray Liu, Yan Chen, “Time-Reversal Wireless System Having Asymmetric Architecture”, PCT Patent Application WO2015023895A1, filed Aug. 14, 2014.'
+- 'Yan Chen, Hung-Quoc Duc Lai, Yi Han, Chen Chen, Zhung-Han Wu, K. J. Ray Liu, Katherine L. Hall, “Wireless Positioning Systems”, PCT Patent Application WO2016011433A2, filed July 17, 2015.'
+- 'Oscar C. Au and Yan Chen, ``Rate Control and Video Denoising for Noisy Video Data", US Full Patent (US 8982947 B2), granted March 17, 2015'
 
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-#links:
-#- name: Follow
-#  url: https://twitter.com
-#  icon_pack: fab
-#  icon: twitter
+  
+conference:
+- 'Yang Hu, Yan Chen, Houqiang Li, Chang Wen Chen, ``An Improved Spatio-Temporal Video Error Concealment Algorithm Using Partial Differential Equation", Proc. SPIE Multimedia Systems and Applications VIII, 2005'
+- 'Yan Chen, Xiaoyan Sun, Feng Wu, Zhengkai Liu, ``Spatio-Temporal Video Error Concealment Using Priority-Ranked Region-Matching", Proc. IEEE Int. Conf. Image Processing (ICIP), 2005'
+- 'Xiaopeng Fan, Oscar C. Au, Yan Chen, Jiantao Zhou, ``Heegard-Berger Video Coding Using LMMSE Estimator", Pacific-RIM Conference on Multimedia (PCM), 2006'
+- 'Carman Yuk, Oscar C. Au, Richard Li, S.Y. Lam, Yan Chen, ``Color Demosaicking using Direction-Consistent Estimation", Proc. IEEE Int. Symposium on Intelligent Signal Processing and Communication Systems (ISPACS), 2006'
+- 'Yan Chen, Oscar C. Au, Jiantao Zhou, Xiaopeng Fan, Liwei Guo, ``Decoder-Embedded Temporal Interpolation Using Least Square Optimal Filter (LSOF)", Proc. IEEE Int. Symposium on Intelligent Signal Processing and Communication Systems (ISPACS), 2006'
 
-social:
-- icon: envelope
-  icon_pack: fas
-  link: 'mailto:eezdh@std.uestc.edu.cn'
-
-url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-slides: ""
-
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: ["MTrack"]
-publishDate: '2021-08-07T13:51:27.707795Z'
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types:
-- '2'
-abstract: 'we implement a multi-antenna wideband system that can provide high-resolution angle of arrival (AoA) and time of flight (ToF). A 2D beamformer is utilized to transform the raw radio signals into the AoA-ToF domain. To track the trajectories of moving persons, we leverage the movement of persons to cancel static multipaths and propose a path selection algorithm to estimate the locations of human and suppress the interferences from dynamic multipaths. To track the vital signs of static persons, we utilize the breath of static persons to eliminate static multipaths and propose a correlation-based algorithm to eliminate dynamic multipaths. Extensive experiments show that the proposed MTrack system is capable of tracking multiple moving persons with sub-decimeter level accuracy, and can estimate the breath and heartbeat rate of static persons with median accuracy of 99.8% and 98.46%, respectively.'
-publication: '*IEEE Internet of Things Journal*'
-doi: 10.1109/JIOT.2020.3025820
 ---
 
 ```
-其中，`draft=false` 代表可以展现在网页上，`true` 则代表网页端不会展示这篇文章，如果此文章对应已有的项目，可以在`project`项中填写项目的名称建立联系。
+请按模板格式将文章信息填写至文件中， 请务必注意`-`符号后面一定要**缩进**。 在增加文章时，为了避免不必要的麻烦，请用**英文的单引号**将每一个条目包裹住。
+填写专著 `book` 信息时，将专著封面图片放入仓库根目录下的 `assets\media` 路径下，并将文件名填写至 `cover` 项。
 
 
 ## 本地实时预览

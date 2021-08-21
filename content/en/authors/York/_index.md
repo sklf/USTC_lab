@@ -40,9 +40,9 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:ranyou@mail.ustc.edu.cn'
-- icon: globe
-  icon_pack: fas
-  link: 'https://www.ranyou.tech'
+# - icon: globe
+#   icon_pack: fas
+#   link: 'https://www.ranyou.tech'
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

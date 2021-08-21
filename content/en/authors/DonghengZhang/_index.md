@@ -1,9 +1,9 @@
 ---
 # Display name
 title: Dongheng Zhang
-weight: 1
+weight: 10
 # Is this the primary user of the site?
-superuser: true
+superuser: false
 
 # Role/position
 role: Postdoc
@@ -44,9 +44,9 @@ social:
 # - icon: google-scholar
 #   icon_pack: fab
 #   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
-- icon: globe
-  icon_pack: fas
-  link: 'https://zhangdh24.github.io/'
+# - icon: globe
+#   icon_pack: fas
+#   link: 'https://zhangdh24.github.io/'
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
@@ -68,7 +68,8 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Postdocs
+- Faculty
+
 ---
 
 Dongheng Zhang received B.S and Ph.D degree both from University of Electronic Science and Technology of China (UESTC) in 2017 and 2021, respectively. He is currently a Postdoc

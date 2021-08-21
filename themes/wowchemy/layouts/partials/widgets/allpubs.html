@@ -1,0 +1,97 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $root_path := (printf "/all-publications/allpub.md" ) }}
+{{ $root_page := site.GetPage $root_path  }}
+{{ $pub_page_path := (printf "/all-publications/allpub.md" ) }}
+{{ $pub_page := site.GetPage $pub_page_path }}
+{{ if not $pub_page }}
+  {{ errorf "Could not find an page at `%s`. " $pub_page_path }}
+{{end}}
+
+{{ $pub := $pub_page.Params }}
+
+
+<div class="row  text-center">
+  {{ with $page.Title }}
+  <div class="col-md-12 section-heading">
+    <h1>{{ . | markdownify | emojify }}</h1>
+    {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
+  </div>
+  {{ end }}
+</div>
+
+  
+
+  <!-- books -->
+
+  
+<div class="row">
+  <div class="col-12">
+    <div class="section-subheading">{{ i18n "book" | markdownify }}</div>
+  </div>
+  {{ with $pub.book }}
+  
+  {{ range . }}
+  {{- $image := resources.Get (path.Join "media" .cover) -}}
+  {{ $post_image := $image.Resize "90x130"}}
+  <div class="col-12 col-lg-2 mt-4 mr-2 ml-4">
+    <img src="{{$post_image.RelPermalink}}">
+  </div>
+
+
+  <div class="col-12 col-lg-8 mt-4">
+    
+    <p style="font-size:0.8rem;margin: 40px 0 10px 0;">{{ .name | markdownify | emojify }}</p>
+
+  </div>
+
+
+
+  {{end}}
+   
+  {{end}}
+</div>
+ 
+  
+
+  <!-- journals -->
+<div class="row">
+  {{ with $pub.journal }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "journal" | markdownify }}</div>
+    <ol class="ol-publication">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+</div>
+
+  <!-- conferences -->
+<div class="row">
+  {{ with $pub.conference }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "conference" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+</div>
+  
+<div class="row">
+  {{ with $pub.patent }}
+  <div class="col-md-12">
+    <div class="section-subheading">{{ i18n "patent" | markdownify }}</div>
+    <ol class="ol-publication my-auto">
+      {{ range . }}
+      <li>{{ . | markdownify | emojify }}</li>
+      {{ end }}
+    </ol>
+    {{end}}
+  </div>
+</div>
+

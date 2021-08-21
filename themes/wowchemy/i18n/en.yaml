@@ -104,6 +104,25 @@
 - id: user_profile_latest
   translation: Latest
 
+
+- id: service
+  translation: Professional Services
+
+- id: award
+  translation: Honors and Awards
+
+- id: book
+  translation: Books
+
+- id: patent
+  translation: Patents
+
+- id: journal
+  translation: Journal Publications
+
+- id: conference
+  translation: Conference Publications
+
 # Accomplishments widget
 
 - id: see_certificate
@@ -260,3 +279,9 @@
 
 - id: published_with
   translation: Published with {wowchemy} — the free, {repo_link}open source{/repo_link} website builder that empowers creators.
+
+- id: master
+  translation: Master Students
+
+- id: alumni
+  translation: Alumni

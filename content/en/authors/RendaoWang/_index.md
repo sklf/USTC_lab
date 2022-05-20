@@ -27,7 +27,7 @@ education:
     year: 2021 - now
   - course: B.S. in Electronic Information Engineering
     institution: Anhui University
-    year: 2017-2020
+    year: 2017-2021
 
 
 # Social/Academic Networking

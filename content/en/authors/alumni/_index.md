@@ -53,10 +53,6 @@ information:
   year: 2020
   dgree: Master
   now: HUAWEI
-- name: Hangjing Zhang
-  year: 2020
-  dgree: Bachelor
-  now: Tsinghua
 - name: Siyuan Chen
   year: 2020
   dgree: Bachelor
@@ -65,10 +61,6 @@ information:
   year: 2020
   dgree: Bachelor
   now: Tsinghua
-- name: Siyuan Chen
-  year: 2020
-  dgree: Bachelor
-  now: KAUST
 - name: Huiying Wang
   year: 2019
   dgree: Master

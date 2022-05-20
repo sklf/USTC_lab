@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Jinbo Chen
-weight: 46
+weight: 23
 # Is this the primary user of the site?
 superuser: false
 

@@ -1,7 +1,7 @@
 ---
 # Display name
-title: Zhi Wu
-weight: 4
+title: Shuai Yang
+weight: 22
 # Is this the primary user of the site?
 superuser: false
 
@@ -17,18 +17,17 @@ organizations:
 bio: 
 
 interests:
-- Computer Vision
+- Signal Processing
 - Wireless Sensing
-- Deep Learning
 
 education:
   courses:
-  - course: Ph.D. in Cyberspace Science and Technology
+  - course: PhD in Cyberspace Science and Technology
     institution: University of Science and Technology of China
-    year: 2018 - now
-  - course: B.S. in Computer Engineering and Science
-    institution: Shanghai University
-    year: 2014-2018
+    year: 2019 - now
+  - course: B.S. in Automation
+    institution: University of Science and Technology of China
+    year: 2015-2019
 
 
 # Social/Academic Networking
@@ -38,16 +37,18 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:wzwyyx@mail.ustc.edu.cn'
+  link: 'mailto:ys1025@mail.ustc.edu.cn'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
 # - icon: google-scholar
-#   icon_pack: fab
-#   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
-- icon: github
-  icon_pack: fab
-  link: https://github.com/wuzhiwyyx
+#   icon_pack: ai
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/sklf
+
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,4 +67,4 @@ user_groups:
 - Ph.D. Students
 ---
 
-Zhi Wu received B.S. from Shanghai University in 2018. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include Computer Vision, wireless sensing.
+Shuai Yang received B.S. from University of Science and Technology of China in 2019. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen and Prof. Qibin Sun. His current research interests include wireless sensing, signal processing.

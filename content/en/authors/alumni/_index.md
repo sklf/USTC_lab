@@ -1,30 +1,26 @@
 ---
 # Display alumni information
 information:
+- name: Zihao Yue
+  year: 2022
+  dgree: Master
+  now: ByteDance
+- name: Xinjian Si
+  year: 2022
+  dgree: Master
+  now: CMBNT
+- name: Yihong Lyu
+  year: 2022
+  dgree: Master
+  now: Alipay
+- name: Yihua Zou
+  year: 2022
+  dgree: Master
+  now: Alibaba
 - name: Chaofan He
   year: 2021
   dgree: PhD
   now: Pengcheng lab
-- name: Huiying Wang
-  year: 2021
-  dgree: Master
-  now: Hangzhou research of China Mobile
-- name: Xiang Su
-  year: 2020
-  dgree: Master
-  now: Tencent
-- name: Tianyu Huang
-  year: 2020
-  dgree: Master
-  now: OPPO
-- name: Lei Feng
-  year: 2020
-  dgree: Master
-  now: TP-LINK
-- name: Xiong Li
-  year: 2020
-  dgree: Master
-  now: HUAWEI
 - name: Yunchao Jiang
   year: 2021
   dgree: Master
@@ -41,22 +37,22 @@ information:
   year: 2021
   dgree: Master
   now: Alibaba Cloud
-- name: Feiyu Jia
-  year: 2017
-  dgree: Bachelor
-  now: ETH
-- name: Liping Tang
-  year: 2017
-  dgree: Bachelor
-  now: CUHK-Shenzhen
-- name: Zheng Chang
-  year: 2019
-  dgree: Bachelor
-  now: Institute of Computing Technology, Chinese Academy of Sciences
-- name: Kaiyue Shen
-  year: 2019
-  dgree: Bachelor
-  now: ETH 
+- name: Xiang Su
+  year: 2020
+  dgree: Master
+  now: Tencent
+- name: Tianyu Huang
+  year: 2020
+  dgree: Master
+  now: OPPO
+- name: Lei Feng
+  year: 2020
+  dgree: Master
+  now: TP-LINK
+- name: Xiong Li
+  year: 2020
+  dgree: Master
+  now: HUAWEI
 - name: Hangjing Zhang
   year: 2020
   dgree: Bachelor
@@ -65,6 +61,28 @@ information:
   year: 2020
   dgree: Bachelor
   now: KAUST
+- name: Hangjing Zhang
+  year: 2020
+  dgree: Bachelor
+  now: Tsinghua
+- name: Siyuan Chen
+  year: 2020
+  dgree: Bachelor
+  now: KAUST
+- name: Huiying Wang
+  year: 2019
+  dgree: Master
+  now: Hangzhou research of China Mobile
+- name: Feiyu Jia
+  year: 2017
+  dgree: Bachelor
+  now: ETH
+- name: Liping Tang
+  year: 2017
+  dgree: Bachelor
+  now: CUHK-Shenzhen
+
+
   
 user_groups:
 - Alumni

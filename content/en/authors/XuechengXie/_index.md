@@ -1,34 +1,33 @@
 ---
 # Display name
-title: Zhi Wu
-weight: 4
+title: Xuecheng Xie
+weight: 68
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: PhD student
+role: Master student 
 
 # Organizations/Affiliations
 organizations:
-- name: University of Science and Technology of China
+- name: USTC 
   url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 interests:
-- Computer Vision
 - Wireless Sensing
-- Deep Learning
+- Digital Health
 
 education:
   courses:
-  - course: Ph.D. in Cyberspace Science and Technology
+  - course: Master in Cyberspace Security
     institution: University of Science and Technology of China
-    year: 2018 - now
-  - course: B.S. in Computer Engineering and Science
-    institution: Shanghai University
-    year: 2014-2018
+    year: 2021 - now
+  - course: B.S. in Automation
+    institution: University of Science and Technology of China
+    year: 2016 - 2020
 
 
 # Social/Academic Networking
@@ -38,16 +37,11 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:wzwyyx@mail.ustc.edu.cn'
-# - icon: twitter
-#   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
-# - icon: google-scholar
-#   icon_pack: fab
-#   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
-- icon: github
-  icon_pack: fab
-  link: https://github.com/wuzhiwyyx
+  link: 'mailto:xxc1997@mail.ustc.edu.cn'
+
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/tnt-etc
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,7 +57,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Ph.D. Students
+- Master Students
 ---
 
-Zhi Wu received B.S. from Shanghai University in 2018. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include Computer Vision, wireless sensing.
+Hello! This is Xuecheng Xie. I am a Master student at the School of Cyberspace Science and Technology,  University of Science and Technology of China (USTC). I am supervised by Prof. Yan Chen. My current research interests include wireless sensing, digital health.

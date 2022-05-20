@@ -1,7 +1,7 @@
 ---
 # Display name
-title: Zhi Wu
-weight: 4
+title: Jinduo Wang
+weight: 25
 # Is this the primary user of the site?
 superuser: false
 
@@ -17,18 +17,18 @@ organizations:
 bio: 
 
 interests:
-- Computer Vision
 - Wireless Sensing
+- Digital Health
 - Deep Learning
 
 education:
   courses:
-  - course: Ph.D. in Cyberspace Science and Technology
+  - course: PhD in Cyberspace Science and Technology
     institution: University of Science and Technology of China
-    year: 2018 - now
-  - course: B.S. in Computer Engineering and Science
-    institution: Shanghai University
-    year: 2014-2018
+    year: 2019 - now
+  - course: B.S. in Electronic Information Engineering
+    institution: University of Science and Technology of China
+    year: 2015 - 2019
 
 
 # Social/Academic Networking
@@ -38,16 +38,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:wzwyyx@mail.ustc.edu.cn'
+  link: 'mailto:wjd1998@mail.ustc.edu.cn'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
 # - icon: google-scholar
-#   icon_pack: fab
-#   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
+#   icon_pack: ai
+#   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/wuzhiwyyx
+  link: https://github.com/Wangjd1998
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -66,4 +66,6 @@ user_groups:
 - Ph.D. Students
 ---
 
-Zhi Wu received B.S. from Shanghai University in 2018. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include Computer Vision, wireless sensing.
+Hello! This is Jinduo Wang (王金舵). I am a Ph.D. student at the School of Cyberspace Science and Technology, University of Science and Technology of China (USTC). I received B.S. degree from the University of Science and Technology of China, Hefei, China, in 2019.
+
+I am supervised by [Prof. Yan Chen](https://ustc-ip-lab.github.io/author/yan-chen/). My current research interest lies in Wireless Sensing, Digital Health, and Deep Learning.

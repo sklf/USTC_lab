@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Zhi Wu
-weight: 4
+title: Shijie Han
+weight: 64
 # Is this the primary user of the site?
-superuser: false
+superuser: true
 
 # Role/position
-role: PhD student
+role: Master student
 
 # Organizations/Affiliations
 organizations:
@@ -17,18 +17,16 @@ organizations:
 bio: 
 
 interests:
-- Computer Vision
-- Wireless Sensing
-- Deep Learning
+- Signal Processing
 
 education:
   courses:
-  - course: Ph.D. in Cyberspace Science and Technology
+  - course: Master in  Cyberspace Security
     institution: University of Science and Technology of China
-    year: 2018 - now
-  - course: B.S. in Computer Engineering and Science
-    institution: Shanghai University
-    year: 2014-2018
+    year: 2021 - now
+  - course: B.S. in Information Security
+    institution: China University of Mining and Technology
+    year: 2017-2021
 
 
 # Social/Academic Networking
@@ -38,16 +36,16 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:wzwyyx@mail.ustc.edu.cn'
+  link: 'mailto:hsj1020@mail.ustc.edu.cn'
 # - icon: twitter
 #   icon_pack: fab
-#   link: https://twitter.com/GeorgeCushen
+#   link: 
 # - icon: google-scholar
-#   icon_pack: fab
-#   link: https://scholar.google.com.hk/citations?user=xBpvMRQAAAAJ&hl=en
+#   icon_pack: ai
+#   link: 
 - icon: github
   icon_pack: fab
-  link: https://github.com/wuzhiwyyx
+  link: 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -63,7 +61,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Ph.D. Students
+- Master Students
 ---
 
-Zhi Wu received B.S. from Shanghai University in 2018. He is currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include Computer Vision, wireless sensing.
+This is Shijie Han,a Master Students of Artificial Intelligence in USTC, My research interest lies in Signal Processing.

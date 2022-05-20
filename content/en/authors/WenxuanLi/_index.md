@@ -1,7 +1,7 @@
 ---
 # Display name
 title: "WenxuanLi"
-weight: 50
+weight: 42
 # Username (this should match the folder name and the name on publications)
 authors:
 - "wenxuanli"

@@ -1,7 +1,7 @@
 ---
 # Display name
 title: 李文轩
-weight: 50
+weight: 42
 # Username (this should match the folder name and the name on publications)
 authors:
 - "wenxuanli"
@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 硕士生
+role: 博士生
 
 # Organizations/Affiliations
 organizations:
@@ -23,11 +23,12 @@ bio: 菜
 # List each interest with a dash
 interests:
 - Wireless Sensing
+- signal processing
 - fall detection
 
 education:
   courses:
-  - course: 网络空间安全硕士
+  - course: 网络空间安全博士
     institution: 中国科学技术大学
     year: 2020-至今
   - course: 信息安全本科
@@ -66,7 +67,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 硕士生
+- 博士生
 ---
 
-你好，我是李文轩，现在是一名中国科学技术大学的硕士研究生，方向是无线感知，最近在做跌倒检测
+你好，我是李文轩，现在是一名中国科学技术大学的博士研究生，方向是无线感知，最近在做跌倒检测

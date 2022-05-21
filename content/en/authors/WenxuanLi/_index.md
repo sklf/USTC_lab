@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Master Students of Artificial Intelligence
+role: Ph.D. Students of Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: M.S. in Cyberspace Security
+  - course: Ph.D. in Cyberspace Security
     institution: University of Science and Technology of China
     year: 2020-now
   - course: B.S. in Information Security
@@ -67,6 +67,6 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Master Students
+- Ph.D. Students
 ---
-This is WenxuanLi,a Master Students of Artificial Intelligence in USTC,My research interest lies in Wireless Sensing and recent work is Fall Detection
+This is WenxuanLi,a Ph.D. Students of Artificial Intelligence in USTC,My research interest lies in Wireless Sensing and recent work is Fall Detection

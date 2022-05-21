@@ -6,7 +6,7 @@ weight: 21
 superuser: false
 
 # Role/position
-role: Master Students
+role: Alumni
 
 # Organizations/Affiliations
 organizations:
@@ -73,7 +73,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 硕士生
+- Alumni
 ---
 
 Hello! This is Zihao Yue. I am a Master Students at at the School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC).I received B.S. degree from the University of Electronic Science and Technology of China (UESTC) in 2019.

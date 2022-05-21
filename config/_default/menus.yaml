@@ -7,15 +7,18 @@ main:
   - name: Home
     url: /
     weight: 10
-  - name: Members
+  - name: People
     url: people
     weight: 30
   - name: Research
-    url: project
+    url: projects
     weight: 40
   - name: Publications
-    url: publication
+    url: allpubs
     weight: 50
   # - name: Contact
-  #   url: contact
+  #   url: allpubs
   #   weight: 60
+  # - name: projects
+  #   url: projects
+  #   weight: 70

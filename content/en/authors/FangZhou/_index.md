@@ -1,7 +1,7 @@
 ---
 # Display name
 title: "Fang Zhou"
-weight: 79
+weight: 61
 # Username (this should match the folder name and the name on publications)
 authors:
 - "Fang Zhou"

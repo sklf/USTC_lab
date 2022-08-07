@@ -1,7 +1,7 @@
 ---
 # Display name
 title: "Bin-Bin Zhang"
-weight: 79
+weight: 5
 # Username (this should match the folder name and the name on publications)
 authors:
 - "Bin-Bin Zhang"
@@ -65,5 +65,5 @@ highlight_name: false
 user_groups:
 - Ph.D. Students
 ---
-Hello! I am currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China(USTC), Hefei, China. I am supervised by Prof. Yan Chen. My current research interests include wireless sensing, deep learning and domain adaptation.
+Hello, This is Bin-Bin Zhang(张宾宾).Welcome to my homepage! I am currently pursuing the Ph.D. degree at the School of Cyberspace Science and Technology, University of Science and Technology of China(USTC), Hefei, China. I am fortunate to be advised by [Prof. Yan Chen](https://chenyanustc.github.io/). My current research interests include wireless sensing, deep learning and domain adaptation.
 

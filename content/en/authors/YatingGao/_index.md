@@ -12,8 +12,8 @@ role: Master student
 
 # Organizations/Affiliations
 organizations:
-- name: UESTC
-  url: ""
+- name: University of Science and Technology of China
+  url: "https://www.ustc.edu.cn/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 

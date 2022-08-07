@@ -25,10 +25,11 @@ education:
   courses:
   - course: M.S. in Cyberspace Security
     institution: University of Science and Technology of China
-    year: 2022- Now
-  - course: B.S. in Computer Science and Technology
+    year: 2022 - now
+  - course: B.S. in Computer Science and Technology
     institution: Dalian University of Technology
     year: 2018 - 2022
+
 # Publications
 
 
@@ -54,9 +55,9 @@ conference:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: 'mailto:ChunyangXie@std.uestc.edu.cn'
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:gytdut@163.com'
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
@@ -84,6 +85,4 @@ user_groups:
 - Master Students
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Hello! This is Yating Gao(高雅婷). I have received B.S. from Dalian University of Technology. My current research interests include wireless sensing and millimeter wave radar.

@@ -22,7 +22,6 @@ content:
   # - Administration
   # - Visitors
   - 教职工
-  - 博士后
   - 博士生
   - 硕士生
   - 本科生

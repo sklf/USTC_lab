@@ -100,3 +100,16 @@ ul.ul-edu li .description p.institution {
   font-size: 0.75rem;
   color: rgba(0, 0, 0, 0.6);
 }
+
+
+
+ol.ol-publication {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+ol.ol-publication li {
+  font-size: 0.8rem;
+  margin: 5px 0;
+  flex: 0 0 auto;
+}

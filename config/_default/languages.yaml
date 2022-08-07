@@ -9,29 +9,29 @@ en:
   contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-zh:
- languageCode: zh-Hans
- contentDir: content/zh
- title: 智能感知实验室
- params:
-   description: Site description in Chinese...
- menu:
-   main:
-     - name: 主页
-       url: /
-       weight: 1
-    #  - name: 新闻
-    #    url: post
-    #    weight: 20
-     - name: 成员
-       url: people
-       weight: 30
-     - name: 研究
-       url: project
-       weight: 40
-     - name: 出版物
-       url: publication
-       weight: 50
+# zh:
+#  languageCode: zh-Hans
+#  contentDir: content/zh
+#  title: 智能感知实验室
+#  params:
+#    description: Site description in Chinese...
+#  menu:
+#    main:
+#      - name: 主页
+#        url: /
+#        weight: 1
+#     #  - name: 新闻
+#     #    url: post
+#     #    weight: 20
+#      - name: 成员
+#        url: people
+#        weight: 30
+#      - name: 研究
+#        url: project
+#        weight: 40
+#      - name: 出版物
+#        url: publication
+#        weight: 50
     #  - name: 联系我们
     #    url: contact
     #    weight: 60

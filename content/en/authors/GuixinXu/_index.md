@@ -62,5 +62,5 @@ user_groups:
 - Master Students
 ---
 
-Guixin Xu received B.S. degree from Zhejiang Sci-tech University in 2022.  He is currently pursuing the M.S. degree at the University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen and Prof. Qibin Sun. His current research interests include wireless sensing,igital health.
+Guixin Xu received B.S. degree from Zhejiang Sci-tech University in 2022.  He is currently pursuing the M.S. degree at the University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen and Prof. Qibin Sun. His current research interests include wireless sensing, digital health.
 

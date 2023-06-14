@@ -20,3 +20,4 @@ window.MathJax = {
     load: ['[tex]/noerrors'],
   },
 };
+console.log("Come on!");

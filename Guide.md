@@ -13,7 +13,7 @@
 
 ## 安装必要软件
 Windows系统请执行以下步骤:
-1. 打开 Powershell 终端，输入以下命令并按回车：
+1. 打开 Powershell 终端(Windows 10 操作系统在资源管理器左上角->文件->打开Windows Powershell即可），输入以下命令并按回车：
    ```
    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
    iwr -useb get.scoop.sh | iex

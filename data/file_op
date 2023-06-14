@@ -1,0 +1,235 @@
+//该函数遍历各级页表的pte并判断pte是否有效，满足条件就进到下一级页表，直到达到最后一级
+   //打印出打印出其中的映射关系
+   //vm.c
+   static int level = 0;
+   //用于保存页表的层级
+   void vmprint(pagetable_t pagetable)
+   {
+     if(level == 0)
+     {
+       printf("page table %p\n", pagetable);
+     }
+     for(int i = 0;i < 512; i++)
+     {
+       pte_t pte = pagetable[i];
+       if(pte & PTE_V)
+       {
+         for (int j = 0; j <= level;j++)
+         {
+           printf("..");
+         }
+         if (level == 2)
+         {
+           printf("%d: pte %p pa %p\n", i, pte, PTE2PA(pte));
+         }
+         else {
+           printf("%d: pte %p ps %p\n", i, pte, PTE2PA(pte));
+           uint64 child = PTE2PA(pte);
+           level++;
+           vmprint((pagetable_t)child);
+           level--;
+         }
+       }
+     }
+   }
+   ```
+2. 为能够在其他文件中引用该函数，将其添加到`defs.h`中
+   ```c
+   //添加函数声明即可
+   //defs.h
+   ...
+   int             copyinstr(pagetable_t, char *, uint64, uint64);
+   void            vmprint(pagetable_t);
+
+   ```
+3. 在`exec.c`中添加`vmprint()`使xv6系统开启时自动打印一次页表
+   ```c
+   //添加一个判断条件，如果是第一个进程，就打印其页表
+   proc_freepagetable(oldpagetable, oldsz);
+
+     if(p->pid==1)
+       vmprint(p->pagetable);
+    //必须添加在return之前
+     return argc; // this ends up in a0, the first argument to main(argc, argv)
+
+   ```
+#### 实验测试
+运行xv6，结果如下
+```
+aiwan@aiwan-virtual-machine:~/os/xv6-labs-2020$ make qemu
+qemu-system-riscv64 -machine virt -bios none -kernel kernel/kernel -m 128M -smp 3 -nographic -drive file=fs.img,if=none,format=raw,id=x0 -device virtio-blk-device,drive=x0,bus=virtio-mmio-bus.0
+
+xv6 kernel is booting
+
+hart 2 starting
+hart 1 starting
+page table 0x0000000087f63000
+..0: pte 0x0000000021fd7c01 ps 0x0000000087f5f000
+....0: pte 0x0000000021fd7801 ps 0x0000000087f5e000
+......0: pte 0x0000000021fd801f pa 0x0000000087f60000
+......1: pte 0x0000000021fd740f pa 0x0000000087f5d000
+......2: pte 0x0000000021fd701f pa 0x0000000087f5c000
+..255: pte 0x0000000021fd8801 ps 0x0000000087f62000
+....511: pte 0x0000000021fd8401 ps 0x0000000087f61000
+......510: pte 0x0000000021fed807 pa 0x0000000087fb6000
+......511: pte 0x0000000020001c0b pa 0x0000000080007000
+init: starting sh
+$ 
+```
+符合预期
+
+### 2.A kernel page table per process
+#### 实验内容
+在xv6系统中，当内核需要使用通过系统调用传递的用户指针时，内核必须首先将指针转换为物理地址。实验2和实验三通过修改和增加一些函数，使得内核能够直接使用用户指针。实验二主要解决的问题是：修改内核，使每个进程在内核中执行时使用自己的内核页表副本
+1. 为进程添加代表内核也表的变量，位于`struct proc`中
+   ```c
+   //添加表示内核页表的变量
+   //proc.h
+   ...
+    pagetable_t pagetable;       // User page table
+    pagetable_t kernelpagetable; 
+    内核页表
+
+   ```
+2. 修改`kvminit`函数，使得新进程生成时，生成新的页表而非修改`kernel_pagetable`，并将修改之后的函数在`allocproc()`中调用该函数
+   ```c
+   //原函数为内核创建空页表并映射
+   //新函数为新进程生成新的页表，而非修改全局页表
+   //vm.c
+   pagetable_t mykvminit()
+    {
+    pagetable_t kpagetable = (pagetable_t)kalloc();
+    //生成新的内核页表
+    memset(kpagetable, 0, PGSIZE);
+    mykvmmap(kpagetable, UART0, UART0, PGSIZE, PTE_R | PTE_W);
+    mykvmmap(kpagetable, VIRTIO0, VIRTIO0, PGSIZE, PTE_R | PTE_W);
+    mykvmmap(kpagetable, CLINT, CLINT, 0x10000, PTE_R | PTE_W);
+    mykvmmap(kpagetable, PLIC, PLIC, 0x400000, PTE_R | PTE_W);
+    mykvmmap(kpagetable, KERNBASE, KERNBASE, (uint64)etext-KERNBASE, PTE_R | PTE_X);
+    mykvmmap(kpagetable, (uint64)etext, (uint64)etext, PHYSTOP-(uint64)etext, PTE_R | PTE_W);
+    mykvmmap(kpagetable, TRAMPOLINE, (uint64)trampoline, PGSIZE, PTE_R | PTE_X);
+
+    return kpagetable;
+    }
+
+    //修改kvmap函数
+    //使其能够构建关于内核也表的映射
+    //其实就是增加一个内核页表参数并对其调用mappages
+    mykvmmap(pagetable_t kpagetable,uint64 va, uint64 pa, uint64 sz, int perm)
+    {
+    if(mappages(kpagetable, va, sz, pa, perm) != 0)
+    panic("ukvmmap");
+    }
+
+   ```
+3. 仿照原有的创建空用户页表的代码，在`allocproc`中调用上述新函数实现为进程分配内核页表功能
+   ```c
+   //allocproc函数为 UNUSED的函数分配内存并初始化其需要的运行环境
+   //在allocproc中调用3中的新函数
+   //defs.h
+   void mykvmmap(pagetable_t kpagetable, uint64 va, uint64 pa, uint64 sz, int perm);
+   pagetable_t mykvminit();
+
+   //proc.c
+   //仿照创建用户页表代码创建内核页表
+    p->kernelpagetable = mykvminit();
+    if(p->kernelpagetable == 0){
+	    freeproc(p);
+	    release(&p->lock);
+	    return 0;
+     }
+   ```
+
+   
+4. 为每个用户进程分配内核栈
+   ```c
+   //根据实验提示，将procinit中函数功能移动到allocproc中
+   //为进程创建内核页表，参考procinit()
+   //proc.c
+    char* pa = kalloc();
+    if(pa == 0)
+    panic("kalloc");
+    uint64 va = KSTACK((int) (p - proc));
+    mykvmmap(p->kernelpagetable,va, (uint64)pa, PGSIZE, PTE_R | PTE_W);
+    p->kstack = va;
+
+    // Set up new context to start executing at forkret,
+    // which returns to user space.
+    memset(&p->context, 0, sizeof(p->context));
+    p->context.ra = (uint64)forkret;
+    ....
+   ```
+5. 修改scheduler()以便将进程的内核页表加载到内核的satp寄存器中
+   ```c
+   //此处需要注意当没有程序运行时需要切换回kernel_pagetable
+   //proc.c
+    ...
+    c->proc = p;
+    //参考kvinithart
+    //切换前将内核页表放入satp寄存器
+        
+    w_satp(MAKE_SATP(p->kernelpagetable));
+
+    sfence_vma();
+    swtch(&c->context, &p->context);
+    //执行结束后，satp寄存器值恢复
+    kvminithart();
+        
+        
+    c->proc = 0;
+    found = 1;
+    ...
+
+   ```
+6. 在销毁进程时释放对应的内核页表。对应的代码在kernel/proc.c的freeproc
+  ```c
+  //首先释放页表的内核栈，然后释放页表
+  //只释放页表的映射关系，不能释放真实的物理地址
+  //主要参考freewalk，但是要去除释放物理内存的部分
+  //proc.c
+    void 
+    proc_freekernelpagetable(pagetable_t pagetable){
+    for (int i = 0; i < 512; ++i) {
+        pte_t pte = pagetable[i];
+        if ((pte & PTE_V)) {
+             pagetable[i] = 0;
+            if ((pte & (PTE_R | PTE_W | PTE_X)) == 0) {
+            uint64 child = PTE2PA(pte);
+            proc_freekernelpagetable((pagetable_t)child);
+         }
+        } else if (pte & PTE_V) {
+         panic("proc free kernelpagetable : leaf");
+     }
+    }
+    kfree((void*)pagetable);
+    }
+  ```
+7. 修改kvmpa使得进程执行期间获取进程的内核也表而非全局内核页表
+   ```c
+   //vm.c
+    uint64
+    kvmpa(uint64 va)
+    {
+    uint64 off = va % PGSIZE;
+    pte_t *pte;
+    uint64 pa;
+  
+    //pte = walk(kernel_pagetable, va, 0);
+  
+
+    struct proc* p = myproc();
+    //更改为获取进程内核页表
+    pte = walk(p->kernelpagetable, va, 0);
+
+    if(pte == 0)
+        panic("kvmpa");
+    if((*pte & PTE_V) == 0)
+        panic("kvmpa");
+    pa = PTE2PA(*pte);
+    return pa+off;
+    }
+   ```
+8. 为调用的函数添加引用
+   ```c
+    #include "spinlock.h"
+    #include "proc.h"

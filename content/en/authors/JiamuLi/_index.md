@@ -11,7 +11,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Master student of Cyberspace Security
+role: PhD student of Cyberspace Security
 
 # Organizations/Affiliations
 organizations:
@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-  - course: M.S. in Cyberspace Security
+  - course: Ph.D. in Cyberspace Security
     institution: University of Science and Technology of China
     year: 2021 - now
   - course: B.S. in Cyberspace Security
@@ -60,7 +60,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Master Students
+- PhD Student
 ---
 
-Jiamu Li received B.S. degree from the Xidian University,  Xi'an, China, in 2021.  He is currently pursuing the M.S. degree at the School of Cyberspace Security, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include wireless sensing.
+Jiamu Li received B.S. degree from the Xidian University,  Xi'an, China, in 2021.  He is currently pursuing the Ph.D. degree at the School of Cyberspace Security, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include wireless sensing.

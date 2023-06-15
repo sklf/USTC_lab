@@ -6,7 +6,7 @@ weight: 68
 superuser: false
 
 # Role/position
-role: Master student 
+role: Phd student 
 
 # Organizations/Affiliations
 organizations:
@@ -37,7 +37,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:xxc1997@mail.ustc.edu.cn'
+  link: 'mailto:xuecheng@mail.ustc.edu.cn'
 
 #- icon: github
 #  icon_pack: fab

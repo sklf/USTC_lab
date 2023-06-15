@@ -11,7 +11,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: 网络空间安全硕士
+role: 网络空间安全博士
 
 # Organizations/Affiliations
 organizations:
@@ -28,7 +28,7 @@ interests:
 
 education:
   courses:
-  - course: 网络空间安全硕士
+  - course: 网络空间安全博士
     institution: 中国科学技术大学
     year: 2021 至今
   - course: 网络空间安全学士
@@ -61,7 +61,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- 硕士生
+- 博士生
 ---
 
 李嘉木于2021年获得西安电子科技大学网络空间安全学士学位，当前在中国科学技术大学网络空间安全学院攻读硕士学位，导师为陈彦，当前研究兴趣包括无线感知、无线安全。

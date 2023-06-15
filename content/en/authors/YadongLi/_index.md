@@ -18,8 +18,8 @@ organizations:
 bio:
 
 interests:
-- Millimeter Wave Sensing
-- Gesture Recognition
+- Millimeter Wave Imaging
+- Human Behavior Sensing
 
 education:
   courses:
@@ -64,4 +64,4 @@ highlight_name: false
 user_groups:
 - Master Students
 ---
-Yadong Li received B.S. degree from the Zhengzhou University,  Zhengzhou, China, in 2021.  He is currently pursuing the M.S. degree at the School of Cyberspace Security, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include millimeter wave sensing and gesture recognition.
+Yadong Li received B.S. degree from the Zhengzhou University,  Zhengzhou, China, in 2021.  He is currently pursuing the M.S. degree at the School of Cyberspace Security, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include millimeter wave imaging and sensing.

@@ -19,7 +19,7 @@ organizations:
 bio: 
 
 interests:
-- Artificial Intelligence
+- Millimeter Wave Sensing
 
 education:
   courses:

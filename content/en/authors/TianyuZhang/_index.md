@@ -22,8 +22,8 @@ bio:
 
 # List each interest with a dash
 interests:
-- Wireless Sensing
-- Indoor Positioning
+- Indoor Localization
+- WiFi Localization
 
 
 education:

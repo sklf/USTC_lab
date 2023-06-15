@@ -1,7 +1,7 @@
 ---
 # Display name
 title: Rui Zhang
-weight: 82
+weight: 70
 # Is this the primary user of the site?
 superuser: true
 

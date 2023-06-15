@@ -17,7 +17,8 @@ organizations:
 bio: 
 
 interests:
-- Signal Processing
+- Signal Processing 
+- IRS
 
 education:
   courses:

@@ -24,7 +24,7 @@ bio:
 # List each interest with a dash
 interests:
 - Wireless Sensing
-- Indoor Tracking
+- Digital Health
 
 education:
   courses:
@@ -69,4 +69,4 @@ highlight_name: false
 user_groups:
 - Master Students
 ---
-Zixin Shang received B.S. degree from Hefei University of Technology in 2022.  He is currently pursuing the M.S. degree at the School of Cyberspace Security, University of Science and Technology of China in Hefei. He is supervised by Prof. Yan Chen. His current research interests include millimeter wave sensing and indoor tracking.
+Zixin Shang(尚子鑫) received B.S. degree from Hefei University of Technology in 2022.  He is currently pursuing the M.S. degree at the School of Cyberspace Security, University of Science and Technology of China in Hefei. He is supervised by Prof. Yan Chen. His current research interests include millimeter wave sensing and digital health.

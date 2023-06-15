@@ -11,7 +11,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Master student
+role: Phd student
 
 # Organizations/Affiliations
 organizations:
@@ -22,8 +22,8 @@ bio:
 
 # List each interest with a dash
 interests:
-- Wireless Sensing
-- Indoor Positioning
+- Indoor Localization
+- WiFi Localization
 
 
 education:

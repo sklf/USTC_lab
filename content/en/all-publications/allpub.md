@@ -115,21 +115,24 @@ journal:
 - 'Zhi Wu, Dongheng Zhang, Chunyang Xie, Cong Yu, Jinbo Chen, Yang Hu, Yan Chen, RFMask: A Simple Baseline for Human Silhouette Segmentation with Radio Signals, to appear in TMM'
 - 'Zhi Lu, Yang Hu, Yan Chen, Yunchao Jiang, Bing Zeng, Personalized Fashion Recommendation with Discrete Content-based Tensor Factorization, to appear in IEEE TMM'
 - 'Zhi Lu, Yang Hu, Cong Yu, Yan Chen, Bing Zeng, Learning Fashion Compatibility with Context Conditioning Embedding, to appear in IEEE TMM'
-- "Cong Yu, Dongheng Zhang, Chunyang Xie, Zhi Lu, Yang Hu, Houqiang Li, Yan Chen, WiFi-Imaging: Generate Human Pose Images via WiFi Signals, submitted to IoTJ"
-- "Dongheng Zhang, Jia Meng, Jian Zhang, Xinzhe Deng, Shouhong Ding, Man Zhou, Qian Wang, Qi Li, Yan Chen, SonarGuard: Ultrasonic Face Liveness Detection on Mobile Devices, submitted to TIFS"
-- 'Ying He, Dongheng Zhang, Yan Chen, 3D Radio Imaging Under Low-Rank Constraint, submitted to TGRS'
-- 'Ying He, Dongheng Zhang, Yan Chen, High-Resolution WiFi Imaging with Reconfigurable Intelligent Surfaces, submitted to IoTJ, arXiv preprint online https://arxiv.org/abs/2112.00242'
-- 'Bin-Bin Zhang, Dongheng Zhang, Yadong Li, Yang Hu, Yan Chen, Unsupervised Domain Adaptation for Device-free Gesture Recognition, submitted to IoTJ arXiv preprint online https://arxiv.org/abs/2111.10602'
-- 'Yadong Li, Dongheng Zhang, Jinbo Chen, Jinwei Wan, Dong Zhang, Yang Hu, Qibin Sun, Yan Chen, Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal, submitted to TMC, arXiv preprint online https://arxiv.org/abs/2111.06195'
-- 'Jinbo Chen, Dongheng Zhang, Zhi Wu, Fang Zhou, Qibin Sun, Yan Chen, Contactless Electrocardiogram Monitoring with Millimeter Wave Radar, submitted to TMC, arXiv preprint online https://arxiv.org/abs/2112.06639 '
-- 'Ganling Zhang, Dongheng Zhang, Ying He, Jinbo Chen, Fang Zhou, Yan Chen, Multi-Person Passive WiFi Indoor Localization with Intelligent Reflecting Surface, submitted to TWC'
-- 'Yuejiang Li, Hong Vicky Zhao, Yan Chen, Graphical Evolutionary Game Theoretic Modeling of Strategy Evolution over Heterogeneous Networks，submitted to TSIPN'
-- 'Shuai Yang, Dongheng Zhang, Ruiyuan Song, Pengfei Yin, Yan Chen, Multiple WiFi Access Points Co-Localization, submitted to TMC'
-- 'Cong Yu, Dongheng Zhang, Zhi Wu, Yang Hu, Yan Chen, RFPose-OT: RF-Based 3D Human Pose Estimation Using Optimal Transport, submitted to SPL'
-- 'Chunyang Xie, Dongheng Zhang, Zhi Wu, Cong Yu, Yang Hu, Yan Chen, RPM: RF-based Pose Machines, submitted to TMM'
-- 'Xiaohan Xu, Dongheng Zhang, Jinbo Chen, Zhi Wu, Qibin Sun, Yan Chen, Contactless GSR Sensing Using mmWave Radar, submitted to IEEE Sensors Journal'
+- 'Yuejiang Li, Hong Vicky Zhao, Yan Chen, Graphical Evolutionary Game Theoretic Modeling of Strategy Evolution over Heterogeneous Networks， to appear in IEEE TSIPN'
+- 'Ying He, Dongheng Zhang, Yan Chen, High-Resolution WiFi Imaging with Reconfigurable Intelligent Surfaces, to appear in IEEE IoTJ'
+- 'Yadong Li, Dongheng Zhang, Jinbo Chen, Jinwei Wan, Dong Zhang, Yang Hu, Qibin Sun, Yan Chen, Towards Domain-Independent and Real-Time Gesture Recognition Using mmWave Signal, to appear in IEEE TMC'
+- 'Jinbo Chen, Dongheng Zhang, Zhi Wu, Fang Zhou, Qibin Sun, Yan Chen, Contactless Electrocardiogram Monitoring with Millimeter Wave Radar, to appear in IEEE TMC'
+- 'Xiaohan Xu, Dongheng Zhang, Jinbo Chen, Zhi Wu, Qibin Sun, Yan Chen, Contactless GSR Sensing Using mmWave Radar, IEEE Sensors Journal'
 
-
+- 'Dongheng Zhang, Jia Meng, Jian Zhang, Xinzhe Deng, Shouhong Ding, Man Zhou, Qian Wang, Qi Li, Yan Chen, SonarGuard: Ultrasonic Face Liveness Detection on Mobile Devices, to appear in TCSVT'
+- 'Shuai Yang, Dongheng Zhang, Ruiyuan Song, Pengfei Yin, Yan Chen, Multiple WiFi Access Points Co-Localization, to appear in IEEE TMC'
+- 'Ying He, Dongheng Zhang, Yan Chen, 3D Radio Imaging Under Low-Rank Constraint, to appear in IEEE TCSVT'
+- 'Ganling Zhang, Dongheng Zhang, Ying He, Jinbo Chen, Fang Zhou, Yan Chen, Multi-Person Passive WiFi Indoor Localization with Intelligent Reflecting Surface, to appear in IEEE TWC'
+- "Bin-Bin Zhang, Dongheng Zhang, Yadong Li, Yang Hu, Yan Chen, Unsupervised Domain Adaptation for Device-free Gesture Recognition,  to appear in IoTJ "
+- "Cong Yu, Dongheng Zhang, Zhi Wu, Yang Hu, Yan Chen, RFPose-OT: RF-Based 3D Human Pose Estimation Using Optimal Transport,  to appear in Frontiers of Information Technology & Electronic Engineering"
+- "Chunyang Xie, Dongheng Zhang, Zhi Wu, Cong Yu, Yang Hu, Yan Chen, RPM: RF-based Pose Machines,  to appear in TMM"
+- "Chunyang Xie, Dongheng Zhang, Zhi Wu, Cong Yu, Yang Hu, Yan Chen, RPM 2.0: RF-based Pose Machines for Multi-Person 3D Pose Estimation, to appear in IEEE TCSVT"
+- "Cong Yu, Dongheng Zhang, Chunyang Xie, Zhi Lu, Yang Hu, Houqiang Li, Yan Chen, Wimaging: Generate Human Pose Images with WiFi, submitted to TCSVT"
+- "Shuai Yang, Xiaolei Shang, Dongheng Zhang, Yan Chen, Iterative Interference Mitigation for Automotive Radar, submitted to IEEE TVT"
+- "Cong Yu, Dongheng Zhang, Zhi Wu, Chunyang Xie, Zhi Lu, Yang Hu, Yan Chen, MobiRFPose: Portable RF-Based 3D Human Pose Camera, submitted to TMM"
+- "Binquan Wang, Dongheng Zhang, Yang Hu, Yan Chen, Cross-Domain WiFi-based Human Activity Recognition Using Few-shot Learning, submitted to TVT"
 
   
 book:
@@ -289,5 +292,15 @@ conference:
 - 'Yufei Tian, Hong Hu, Yuejiang Li, H. Vicky Zhao, Yan Chen, CAN-SIN: A Cross-Layer Heterogeneous Academic Network with Semantic Information, APSIPA ASC, 2020 (Best Paper Award)'
 - Dongheng Zhang, Xiong Li, Yan Chen, Pushing the Limit of Phase Offset for Contactless Sensing Using Commodity WiFi, ICASSP, 2021
 - Zhi Lu, Yang Hu, Yan Chen, Bing Zeng, Personalized Outfit Recommendation With Learnable Anchors, CVPR, 2021
-
+- "Renjie Wen, Dongheng Zhang, Jinbo Chen, Qibin Sun, and Yan Chen. Pushing the Limit of Radar-Based Vibration Measurement With Deep Learning. PIMRC, 2022"
+- "Wenxuan Li, Dongheng Zhang,Yadong Li, Zhi Wu, Jinbo Chen, Dong Zhang, Yang Hu, Qibin Sun, Yan Chen.REAL-TIME FALL DETECTION USING MMWAVE RADAR. ICASSP, 2022"
+- "Cong Yu, Dongheng Zhang, Chunyang Xie, Zhi Lu, Yang Hu, Houqiang Li, Qibin Sun, Yan Chen. WiFi-Based Human Pose Image Generation. MMSP, 2022"
+- "Ying He, Dongheng Zhang, Qibin Sun and Yan Chen. 3-D Imaging Under Low-Rank Constraint With Radio Signals. MMSP, 2022"
+- "Chunyang Xie, Dongheng Zhang, Zhi Wu, Cong Yu, Yang Hu, Qibin Sun, Yan Chen. Accurate Human Pose Estimation using RF Signals. MMSP, 2022 (Best Paper Runner Up)"
+- "Ying He, Dongheng Zhang, and Yan Chen. Reconfigurable intelligent surfaces aided WiFi imaging. APSIPA ASC, 2022"
+- "Pengcheng Huang, Dongheng Zhang, Ruixu Geng, Yan Chen. Continuous User Authentication using WiFi. APSIPA ASC, 2022"
+- "Yadong Li, Dongheng Zhang, Jinbo Chen, Jinwei Wan, Dong Zhang, Yang Hu, Qibin Sun and Yan Chen. DI-Gesture: Domain-Independent and Real-Time Gesture Recognition with Millimeter-Wave Signals. GLOBECOM, 2022"
+- "You Ran, Dongheng Zhang, Jinbo Chen, Yang Hu, Yan Chen. Contactless Blood Pressure Monitoring with mmWave Radar. GLOBECOM, 2022"
+- "Ruiyuan Song, Dongheng Zhang, Zhi Wu, Cong Yu, Chunyang Xie, Shuai Yang, Yang Hu, and Yan Chen. RF-URL: unsupervised representation learning for RF sensing. MOBICOM, 2022"
+- "Jinbo Chen, Dongheng Zhang, Dong Zhang, Qibin Sun and Yan Chen. MMCamera: an imaging modality for future RF-based physiological sensing. MOBICOM, 2022"
 ---

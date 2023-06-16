@@ -1,7 +1,7 @@
 ---
 # Display name
 title: "Jiamu Li"
-weight: 70
+weight: 101
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -60,7 +60,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- PhD Student
+- Ph.D. Students
 ---
 
 Jiamu Li received B.S. degree from the Xidian University,  Xi'an, China, in 2021.  He is currently pursuing the Ph.D. degree at the School of Cyberspace Security, University of Science and Technology of China, Hefei, China. He is supervised by Prof. Yan Chen. His current research interests include wireless sensing.

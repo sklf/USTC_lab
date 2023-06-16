@@ -1,3 +1,10 @@
+<!--
+ * @Description: 
+ * @Github: https://github.com/sklf
+ * @Author: Chunyang Xie (ChunyangXie@std.uestc.edu.cn)
+ * Licensed under the MIT License.
+ * Copyright 2023 USTC IPLab, All Rights Reserved. 
+-->
 ---
 # Display name
 title: Zihao Yue
@@ -73,11 +80,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-<<<<<<< HEAD
-- Master Students
-=======
 - Alumni
->>>>>>> dev
 ---
 
 Hello! This is Zihao Yue. I am a Master Students at at the School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC).I received B.S. degree from the University of Electronic Science and Technology of China (UESTC) in 2019.

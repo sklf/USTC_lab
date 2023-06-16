@@ -19,7 +19,7 @@ bio:
 interests:
 - Multimodal Machine Learning
 - Pose Estimation / Tracking
-- Wireless Sensing
+- Wireless Sensing 
 
 education:
   courses:
@@ -68,4 +68,4 @@ user_groups:
 
 Hello! This is Chunyang Xie (解春阳). I am a Ph.D. student at at the School of Information and Communication Engineering, University of Electronic Science and Technology of China (UESTC).I received B.S. degree from the University of Electronic Science and Technology of China (UESTC) in 2018.
 
-I am fortunate to be advised by [Prof. Yan Chen](https://chenyanustc.github.io/). My research interest lies in Multimodal Machine Learning, Pose Estimation / Tracking, and Wireless Sensing.
+I am fortunate to be advised by [Prof. Yan Chen](https://chenyanustc.github.io/). My research interest lies in Multimodal Machine Learning, Pose Estimation / Tracking, and Wireless Sensing. 

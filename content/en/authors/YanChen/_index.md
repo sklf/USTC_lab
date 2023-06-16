@@ -21,7 +21,7 @@ organizations:
 bio: 
 
 interests:
-- Multmodal Sensing and Imaging
+- Multimodal Sensing and Imaging
 - Multimedia Signal Processing
 - Wireless Multimedia
 - Digital Health
@@ -42,26 +42,29 @@ education:
 # - Signal Processing Signal Processing Signal Processing Signal Processing Signal Processing Signal Processing
 
 service:
-- Editorial Board, MDPI Sensors
+# - Editorial Board, MDPI Sensors
 - Associate Editor, IEEE Transactions on Signal and Information Processing over Networks, Jan. 2021- present
 - Associate Editor IEEE Transactions on Network Science and Engineering, Nov. 2020- present
+- IEEE SAM Technical Committee Member, Jan. 2023- Dec. 2025
 - Chair APSIPA SIPTM Technical Committee, Jan.2021- present
 - Distinguished Lecturer APSIPA 2020-2021
 - Symposium Chair WCSP 2019
 - Secretary-General, CES Young Scientist Network Multimedia Technical Committee, 2017- present 
-- Organizing Co-Chair,PCM 2017
-- Special Session Co-Chair,APSIPA ASC 2017
+- Organizing Co-Chair, PCM 2017
+- Special Session Co-Chair, APSIPA ASC 2017
 - Award Committee,ICME 10K Best Paper Award 2017
 - Area Chair ACM Multimedia 2021
   
 award:
+- MMSP Best Paper Award Runner-Up, 2022
+- IEEE TNSE Excellent Editor, 2021
 - "APSIPA ASC Best Paper Award, 2020"
 - PCM Best Student Paper Award, 2017
 - IEEE ICASSP Best Student Paper Award, 2016
 - IEEE Globecom Best Paper Award, 2013
 - UMD ECE Distinguished Dissertation Fellowship Honorable Mention, 2011
 - Finalist, Dean's Doctoral Research Award, A. James Clark School of Engineering, UMD, 2011
-- Future Faculty Fellowship, UMDJan.2010 - Aug.2011
+- Future Faculty Fellowship, UMD, Jan.2010 - Aug.2011
 - Chinese Government Award for Outstanding Students Abroad,2010
 
 

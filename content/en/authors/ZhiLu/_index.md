@@ -1,7 +1,7 @@
 ---
 # Display name
 title: "Zhi Lu"
-weight: 3
+weight: 9
 # Username (this should match the folder name and the name on publications)
 authors:
   - "ZhiLu"
@@ -10,22 +10,24 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: PhD Student
+role: Postdoc
 
 # Organizations/Affiliations
 organizations:
-  - name: University of Electronic Science and Technology of China
-    url: "https://www.uestc.edu.cn/"
+  - name: University of Science and Technology of China
+    url: "https://www.ustc.edu.cn/"
 
 bio:
 
 interests:
-  - Fashion Recommendation
   - Wireless Sensing
-  - Wireless Pose Estimation
+  - Signal Processing
 
 education:
   courses:
+    - course: PhD Signal and Information Processing
+      institution: University of Electronic Science and Technology of China
+      year: 2018 - 2022
     - course: M.S. Signal and Information Processing
       institution: University of Electronic Science and Technology of China
       year: 2015 - 2018
@@ -63,7 +65,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Ph.D. Students
+  - Faculty
 ---
 
-Zhi Lu received B.S. and MPhil. Pdegree from the University of Electronic Science and Technology of China. He is currently pursuing the Ph.D. degree at the School of Information and Communication Engineering, University of Electronic Science and Technology of China. He is supervised by Prof Bing Zeng and co-supervised by Prof. Yan Chen and Prof. Yang Hu. His current research interests include wireless sensing, and fashion recommendation.
+Zhi Lu received PhD degree from the University of Electronic Science and Technology of China (UESTC) in 2022. He is currently a Postdoc researcher at University of Science and Technology of China. His research interests include wireless sensing, signal processing, and machine learning.

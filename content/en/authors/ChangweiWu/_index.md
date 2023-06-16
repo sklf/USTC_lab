@@ -19,7 +19,6 @@ bio:
 interests:
 - Wireless Sensing
 - Digital Health
-- Robotics
 
 education:
   courses:
